@@ -99,16 +99,24 @@ void Renderer::collectMesh(const Mesh &mesh, const Player &camera,
   }
 
   for (const auto &t : mesh.triangles) {
+    constexpr float falloffDistance = 500.0f;
+
     Vec3 A = world[t.a], B = world[t.b], C = world[t.c];
     Vec3 center = (A + B + C) * (1.0f / 3.0f);
+    Vec3 toCamera = center - camera.pos;
     Vec3 normal = cross(B - A, C - A);
+    float distance = std::sqrt(dot(toCamera, toCamera));
+    float attenuation = 1.0f / (1.0f + (distance * distance) /
+                                           (falloffDistance * falloffDistance));
 
     if (dot(normal, camera.pos - center) <= 0)
       continue;
 
     float depth = (cam[t.a].y + cam[t.b].y + cam[t.c].y) / 3.0f;
 
-    out.push_back({{cam[t.a], cam[t.b], cam[t.c]}, depth, mesh.color});
+    Color shaded = calculateLighting(mesh.color, normal, light, attenuation);
+
+    out.push_back({{cam[t.a], cam[t.b], cam[t.c]}, depth, shaded});
   }
 }
 

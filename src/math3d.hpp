@@ -33,6 +33,15 @@ inline Vec3 cross(Vec3 a, Vec3 b) {
   return {a.y * b.z - a.z * b.y, a.z * b.x - a.x * b.z, a.x * b.y - a.y * b.x};
 }
 
+inline Vec3 normalize(Vec3 v) {
+  float len = std::sqrt(dot(v, v));
+
+  if (len < 1e-6f)
+    return {0, 0, 0};
+
+  return v * (1.0f / len);
+}
+
 // RGBA8, laid out so it can be handed straight to glDrawPixels(GL_RGBA, ...).
 struct Color {
   unsigned char r, g, b, a;

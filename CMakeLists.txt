@@ -10,6 +10,7 @@ add_executable(3d-test
     src/main.cpp
     src/mesh.cpp
     src/primitives.cpp
+		src/lighting.cpp
 		src/renderer.cpp
 		src/player.cpp
 )

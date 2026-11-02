@@ -18,7 +18,7 @@ struct DrawFace {
 class Mesh {
 public:
   // Default Color :D
-  Color color = BLACK;
+  Color color = RAYWHITE;
 
   std::vector<Vec3> vertices;
   std::vector<Triangle> triangles;

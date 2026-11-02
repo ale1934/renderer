@@ -11,48 +11,6 @@
 constexpr int SCREENWIDTH = 960;
 constexpr int SCREENHEIGHT = 720;
 
-// Testing hsv colors
-Color HSVtoRGB(float h, float s, float v) {
-  h = fmodf(h, 360.0f);
-  if (h < 0)
-    h += 360.0f;
-
-  float c = v * s;
-  float x = c * (1 - fabsf(fmodf(h / 60.0f, 2) - 1));
-  float m = v - c;
-
-  float r, g, b;
-
-  if (h < 60) {
-    r = c;
-    g = x;
-    b = 0;
-  } else if (h < 120) {
-    r = x;
-    g = c;
-    b = 0;
-  } else if (h < 180) {
-    r = 0;
-    g = c;
-    b = x;
-  } else if (h < 240) {
-    r = 0;
-    g = x;
-    b = c;
-  } else if (h < 300) {
-    r = x;
-    g = 0;
-    b = c;
-  } else {
-    r = c;
-    g = 0;
-    b = x;
-  }
-
-  return {(unsigned char)((r + m) * 255), (unsigned char)((g + m) * 255),
-          (unsigned char)((b + m) * 255), 255};
-}
-
 int main() {
   if (!glfwInit()) {
     std::fprintf(stderr, "Failed to initialize GLFW\n");
@@ -80,16 +38,23 @@ int main() {
   Player player;
   Renderer renderer(SCREENWIDTH, SCREENHEIGHT);
 
+  // lighting
+  renderer.light.direction = {0, -1, 0};
+  renderer.light.ambient = 0.2f;
+  renderer.light.diffuse = 0.8f;
+
   std::vector<Mesh> scene = {
       makeRect({0, 200, -20}, {40, 40, 40}),
       makePyramid({60, 200, -20}, {40, 40}),
       makeRect({120, 200, -20}, {40, 40, 40}),
+      makeSphere({200, 220, 0}, 64, 20),
   };
 
   // Testing out color applications
   scene[0].color = RED;
   scene[1].color = BLUE;
   scene[2].color = GREEN;
+  scene[3].color = ORANGE;
 
   double lastTime = glfwGetTime();
   double titleTimer = 0.0;
@@ -104,6 +69,13 @@ int main() {
     lastTime = now;
 
     player.update(window, mouse, dt);
+
+    float yaw = player.angle * DEG2RAD;
+    float pitch = player.pitch * DEG2RAD;
+
+    renderer.light.direction =
+        normalize({std::sin(yaw) * std::cos(pitch),
+                   std::cos(yaw) * std::cos(pitch), std::sin(pitch)});
 
     renderer.clear(RAYWHITE);
     renderer.drawMeshes(scene, player);

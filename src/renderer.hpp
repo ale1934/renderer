@@ -4,12 +4,15 @@
 #include <algorithm>
 #include <vector>
 
+#include "lighting.hpp"
 #include "math3d.hpp"
 #include "mesh.hpp"
 #include "player.hpp"
 
 class Renderer {
 public:
+  DirectionalLight light;
+
   Renderer(int w, int h)
       : width(w), height(h),
         framebuffer(static_cast<size_t>(w) * static_cast<size_t>(h), RAYWHITE) {
