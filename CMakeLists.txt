@@ -6,16 +6,34 @@ project(3D-test
     LANGUAGES CXX
 )
 
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
+
+set(IMGUI_DIR ${CMAKE_CURRENT_SOURCE_DIR}/external/imgui)
+
 add_executable(3d-test
     src/main.cpp
     src/mesh.cpp
     src/primitives.cpp
-		src/lighting.cpp
-		src/renderer.cpp
-		src/player.cpp
+	src/lighting.cpp
+	src/renderer.cpp
+	src/player.cpp
+)
+
+target_sources(3d-test PRIVATE
+	${IMGUI_DIR}/imgui.cpp
+	${IMGUI_DIR}/imgui_demo.cpp
+	${IMGUI_DIR}/imgui_draw.cpp
+	${IMGUI_DIR}/imgui_tables.cpp
+	${IMGUI_DIR}/imgui_widgets.cpp
+	${IMGUI_DIR}/backends/imgui_impl_glfw.cpp
+	${IMGUI_DIR}/backends/imgui_impl_opengl3.cpp
+
 )
 
 target_include_directories(3d-test PRIVATE
+	${IMGUI_DIR}
     ${CMAKE_CURRENT_SOURCE_DIR}/src
 )
 

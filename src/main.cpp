@@ -8,6 +8,11 @@
 #include <cstdio>
 #include <vector>
 
+// Imgui
+#include "../external/imgui/backends/imgui_impl_glfw.h"
+#include "../external/imgui/backends/imgui_impl_opengl3.h"
+#include <imgui.h>
+
 constexpr int SCREENWIDTH = 960;
 constexpr int SCREENHEIGHT = 720;
 
@@ -29,6 +34,24 @@ int main() {
 
   glfwMakeContextCurrent(window);
   glfwSwapInterval(1); // vsync
+
+  // Setup Dear ImGui context
+  IMGUI_CHECKVERSION();
+  ImGui::CreateContext();
+  ImGuiIO &io = ImGui::GetIO();
+  (void)io;
+  io.ConfigFlags |=
+      ImGuiConfigFlags_NavEnableKeyboard; // Enable Keyboard Controls
+
+  // initialize imgui
+  IMGUI_CHECKVERSION();
+  ImGui::CreateContext();
+
+  ImGui_ImplGlfw_InitForOpenGL(window, true);
+  ImGui_ImplOpenGL3_Init();
+
+  bool show_demo_window = false;
+  ImVec4 clear_color = ImVec4(0.45f, 0.55f, 0.60f, 1.00f);
 
   MouseDelta mouse;
   glfwSetWindowUserPointer(window, &mouse);
@@ -61,14 +84,33 @@ int main() {
   int frames = 0;
   int fps = 0;
 
+  bool menuToggleReleased = true;
+
   while (!glfwWindowShouldClose(window)) {
     glfwPollEvents();
+    if (glfwGetWindowAttrib(window, GLFW_ICONIFIED) != 0) {
+      ImGui_ImplGlfw_Sleep(10);
+      continue;
+    }
+
+    if (glfwGetKey(window, GLFW_KEY_TAB) == GLFW_PRESS && menuToggleReleased) {
+      show_demo_window = !show_demo_window;
+      glfwSetInputMode(window, GLFW_CURSOR,
+                       show_demo_window ? GLFW_CURSOR_NORMAL
+                                        : GLFW_CURSOR_DISABLED);
+      menuToggleReleased = false;
+    }
+
+    if (glfwGetKey(window, GLFW_KEY_TAB) == GLFW_RELEASE) {
+      menuToggleReleased = true;
+    }
 
     double now = glfwGetTime();
     float dt = (float)(now - lastTime);
     lastTime = now;
 
-    player.update(window, mouse, dt);
+    if (!show_demo_window)
+      player.update(window, mouse, dt);
 
     float yaw = player.angle * DEG2RAD;
     float pitch = player.pitch * DEG2RAD;
@@ -81,25 +123,19 @@ int main() {
     renderer.drawMeshes(scene, player);
     renderer.present(window);
 
+    ImGui_ImplOpenGL3_NewFrame();
+    ImGui_ImplGlfw_NewFrame();
+    ImGui::NewFrame();
+
+    // Draw UI
+    if (show_demo_window)
+      ImGui::ShowDemoWindow(&show_demo_window);
+
+    ImGui::Render();
+    ImGui_ImplOpenGL3_RenderDrawData(ImGui::GetDrawData());
     glfwSwapBuffers(window);
 
     frames++;
-    titleTimer += dt;
-    if (titleTimer >= 0.5) {
-      fps = (int)(frames / titleTimer);
-      frames = 0;
-      titleTimer = 0.0;
-
-      // Show some info in title bar but
-      // i cant see cuz i use mangowm fml windows > linux
-      char title[256];
-      std::snprintf(
-          title, sizeof title,
-          "window | POS %.0f, %.0f, %.0f | ANGLE %.0f | PITCH %.0f | FPS %d",
-          player.pos.x, player.pos.y, player.pos.z, player.angle, player.pitch,
-          fps);
-      glfwSetWindowTitle(window, title);
-    }
   }
 
   glfwDestroyWindow(window);

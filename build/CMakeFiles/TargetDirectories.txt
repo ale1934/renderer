@@ -1,0 +1,3 @@
+/home/ale/Programming/renderer/build/CMakeFiles/3d-test.dir
+/home/ale/Programming/renderer/build/CMakeFiles/edit_cache.dir
+/home/ale/Programming/renderer/build/CMakeFiles/rebuild_cache.dir
