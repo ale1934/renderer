@@ -25,6 +25,8 @@ public:
   // Copy the software framebuffer to the window, scaled to fill it.
   void present(GLFWwindow *window);
 
+  void showCoords(const Player &cam);
+
 private:
   int width;
   int height;
@@ -47,6 +49,9 @@ private:
                    std::vector<DrawFace> &out);
 
   void drawTriangle(const DrawFace &f);
+
+  void drawLine(Vec3 pointA, Vec3 pointB, const Player &cam,
+                Color color = BLACK);
 
   // Project a camera-space point onto the screen.
   Vec2 project(Vec3 point);

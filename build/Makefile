@@ -57,10 +57,10 @@ RM = /usr/sbin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ale/Programming/renderer
+CMAKE_SOURCE_DIR = /home/ale/Programming/3d-test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ale/Programming/renderer/build
+CMAKE_BINARY_DIR = /home/ale/Programming/3d-test/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ale/Programming/renderer/build/CMakeFiles /home/ale/Programming/renderer/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ale/Programming/3d-test/build/CMakeFiles /home/ale/Programming/3d-test/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ale/Programming/renderer/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ale/Programming/3d-test/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

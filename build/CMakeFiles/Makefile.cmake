@@ -7,9 +7,9 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/home/ale/Programming/renderer/CMakeLists.txt"
-  "CMakeFiles/4.4.4/CMakeCXXCompiler.cmake"
-  "CMakeFiles/4.4.4/CMakeSystem.cmake"
+  "/home/ale/Programming/3d-test/CMakeLists.txt"
+  "CMakeFiles/4.4.5/CMakeCXXCompiler.cmake"
+  "CMakeFiles/4.4.5/CMakeSystem.cmake"
   "/usr/lib/cmake/glfw3/glfw3Config.cmake"
   "/usr/lib/cmake/glfw3/glfw3ConfigVersion.cmake"
   "/usr/lib/cmake/glfw3/glfw3Targets-none.cmake"

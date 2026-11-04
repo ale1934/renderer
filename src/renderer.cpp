@@ -1,4 +1,59 @@
 #include "renderer.hpp"
+#include "math3d.hpp"
+#include <vector>
+
+void Renderer::drawLine(Vec3 pointA, Vec3 pointB, const Player &cam,
+                        Color color) {
+  // Transform world coordinates into camera space
+  Vec3 a = toCameraSpace(pointA, cam);
+  Vec3 b = toCameraSpace(pointB, cam);
+
+  // Clip against near plane
+  if (a.y < nearPlane && b.y < nearPlane)
+    return;
+
+  if (a.y < nearPlane)
+    a = intersectNearPlane(a, b);
+  else if (b.y < nearPlane)
+    b = intersectNearPlane(b, a);
+
+  // Project onto screen
+  Vec2 p1 = project(a);
+  Vec2 p2 = project(b);
+
+  // DDA line rasterization
+  float dx = p2.x - p1.x;
+  float dy = p2.y - p1.y;
+
+  int steps = (int)std::ceil(std::max(std::abs(dx), std::abs(dy)));
+
+  if (steps == 0) {
+    int x = (int)p1.x;
+    int y = (int)p1.y;
+
+    if (x >= 0 && x < width && y >= 0 && y < height)
+      framebuffer[y * width + x] = color;
+
+    return;
+  }
+
+  float xStep = dx / steps;
+  float yStep = dy / steps;
+
+  float x = p1.x;
+  float y = p1.y;
+
+  for (int i = 0; i <= steps; i++) {
+    int px = (int)std::round(x);
+    int py = (int)std::round(y);
+
+    if (px >= 0 && px < width && py >= 0 && py < height)
+      framebuffer[py * width + px] = color;
+
+    x += xStep;
+    y += yStep;
+  }
+}
 
 void Renderer::clear(Color c) {
   std::fill(framebuffer.begin(), framebuffer.end(), c);
@@ -182,4 +237,10 @@ void Renderer::fillTriangle(Vec2 a, Vec2 b, Vec2 c, Color col) {
     for (int x = xs; x <= xe; x++)
       row[x] = col;
   }
+}
+
+void Renderer::showCoords(const Player &cam) {
+  drawLine({0.0f, 0.0f, 0.0f}, {1000.0f, 0.0f, 0.0f}, cam, RED);
+  drawLine({0.0f, 0.0f, 0.0f}, {0.0f, 1000.0f, 0.0f}, cam, GREEN);
+  drawLine({0.0f, 0.0f, 0.0f}, {0.0f, 0.0f, 1000.0f}, cam, BLUE);
 }

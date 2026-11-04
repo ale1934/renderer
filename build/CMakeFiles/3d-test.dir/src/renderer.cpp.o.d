@@ -1,8 +1,7 @@
 CMakeFiles/3d-test.dir/src/renderer.cpp.o: \
- /home/ale/Programming/renderer/src/renderer.cpp \
+ /home/ale/Programming/3d-test/src/renderer.cpp \
  /usr/include/stdc-predef.h \
- /home/ale/Programming/renderer/src/renderer.hpp \
- /usr/include/GLFW/glfw3.h \
+ /home/ale/Programming/3d-test/src/renderer.hpp /usr/include/GLFW/glfw3.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stddef.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/libc-header-start.h \
@@ -25,25 +24,29 @@ CMakeFiles/3d-test.dir/src/renderer.cpp.o: \
  /usr/include/c++/16/ext/type_traits.h \
  /usr/include/c++/16/ext/numeric_traits.h \
  /usr/include/c++/16/bits/stl_pair.h /usr/include/c++/16/bits/move.h \
- /usr/include/c++/16/bits/utility.h \
+ /usr/include/c++/16/bits/utility.h /usr/include/c++/16/compare \
+ /usr/include/c++/16/concepts \
  /usr/include/c++/16/bits/stl_iterator_base_types.h \
+ /usr/include/c++/16/bits/iterator_concepts.h \
+ /usr/include/c++/16/bits/ptr_traits.h \
+ /usr/include/c++/16/bits/ranges_cmp.h \
  /usr/include/c++/16/bits/stl_iterator_base_funcs.h \
  /usr/include/c++/16/bits/concept_check.h \
  /usr/include/c++/16/debug/assertions.h \
- /usr/include/c++/16/bits/stl_iterator.h \
- /usr/include/c++/16/bits/ptr_traits.h /usr/include/c++/16/debug/debug.h \
- /usr/include/c++/16/bits/predefined_ops.h \
- /usr/include/c++/16/bits/stl_function.h \
- /usr/include/c++/16/backward/binders.h /usr/include/c++/16/bit \
- /usr/include/c++/16/concepts /usr/include/c++/16/bits/stl_algo.h \
- /usr/include/c++/16/bits/algorithmfwd.h \
- /usr/include/c++/16/initializer_list /usr/include/c++/16/bits/stl_heap.h \
- /usr/include/c++/16/bits/uniform_int_dist.h \
- /usr/include/c++/16/bits/stl_tempbuf.h /usr/include/c++/16/new \
+ /usr/include/c++/16/bits/stl_iterator.h /usr/include/c++/16/new \
  /usr/include/c++/16/bits/exception.h \
  /usr/include/c++/16/bits/new_except.h \
  /usr/include/c++/16/bits/exception_defines.h \
- /usr/include/c++/16/bits/stl_construct.h /usr/include/c++/16/cstdlib \
+ /usr/include/c++/16/bits/stl_construct.h \
+ /usr/include/c++/16/debug/debug.h \
+ /usr/include/c++/16/bits/predefined_ops.h \
+ /usr/include/c++/16/bits/stl_function.h \
+ /usr/include/c++/16/backward/binders.h /usr/include/c++/16/bit \
+ /usr/include/c++/16/bits/stl_algo.h \
+ /usr/include/c++/16/bits/algorithmfwd.h \
+ /usr/include/c++/16/initializer_list /usr/include/c++/16/bits/stl_heap.h \
+ /usr/include/c++/16/bits/uniform_int_dist.h \
+ /usr/include/c++/16/bits/stl_tempbuf.h /usr/include/c++/16/cstdlib \
  /usr/include/stdlib.h /usr/include/bits/waitflags.h \
  /usr/include/bits/waitstatus.h /usr/include/bits/floatn.h \
  /usr/include/bits/floatn-common.h /usr/include/bits/types/locale_t.h \
@@ -62,6 +65,12 @@ CMakeFiles/3d-test.dir/src/renderer.cpp.o: \
  /usr/include/bits/atomic_wide_counter.h /usr/include/bits/struct_mutex.h \
  /usr/include/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/bits/stdlib-float.h /usr/include/c++/16/bits/std_abs.h \
+ /usr/include/c++/16/bits/ranges_algo.h \
+ /usr/include/c++/16/bits/ranges_algobase.h \
+ /usr/include/c++/16/bits/ranges_base.h \
+ /usr/include/c++/16/bits/max_size_type.h /usr/include/c++/16/numbers \
+ /usr/include/c++/16/limits /usr/include/c++/16/bits/invoke.h \
+ /usr/include/c++/16/bits/ranges_util.h \
  /usr/include/c++/16/pstl/glue_algorithm_defs.h \
  /usr/include/c++/16/pstl/execution_defs.h /usr/include/c++/16/vector \
  /usr/include/c++/16/bits/requires_hosted.h \
@@ -84,9 +93,8 @@ CMakeFiles/3d-test.dir/src/renderer.cpp.o: \
  /usr/include/c++/16/bits/memory_resource.h /usr/include/c++/16/cstddef \
  /usr/include/c++/16/bits/uses_allocator.h \
  /usr/include/c++/16/bits/uses_allocator_args.h /usr/include/c++/16/tuple \
- /usr/include/c++/16/bits/invoke.h \
- /home/ale/Programming/renderer/src/lighting.hpp \
- /home/ale/Programming/renderer/src/math3d.hpp /usr/include/c++/16/cmath \
+ /home/ale/Programming/3d-test/src/lighting.hpp \
+ /home/ale/Programming/3d-test/src/math3d.hpp /usr/include/c++/16/cmath \
  /usr/include/math.h /usr/include/bits/math-vector.h \
  /usr/include/bits/libm-simd-decl-stubs.h \
  /usr/include/bits/flt-eval-method.h /usr/include/bits/fp-logb.h \
@@ -94,7 +102,7 @@ CMakeFiles/3d-test.dir/src/renderer.cpp.o: \
  /usr/include/bits/mathcalls-helper-functions.h \
  /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls-narrow.h \
  /usr/include/bits/iscanonical.h /usr/include/c++/16/bits/specfun.h \
- /usr/include/c++/16/limits /usr/include/c++/16/tr1/gamma.tcc \
+ /usr/include/c++/16/tr1/gamma.tcc \
  /usr/include/c++/16/tr1/special_function_util.h \
  /usr/include/c++/16/tr1/bessel_function.tcc \
  /usr/include/c++/16/tr1/beta_function.tcc \
@@ -106,6 +114,37 @@ CMakeFiles/3d-test.dir/src/renderer.cpp.o: \
  /usr/include/c++/16/tr1/poly_hermite.tcc \
  /usr/include/c++/16/tr1/poly_laguerre.tcc \
  /usr/include/c++/16/tr1/riemann_zeta.tcc \
- /home/ale/Programming/renderer/src/mesh.hpp /usr/include/c++/16/array \
- /usr/include/c++/16/compare \
- /home/ale/Programming/renderer/src/player.hpp
+ /home/ale/Programming/3d-test/src/mesh.hpp /usr/include/c++/16/array \
+ /usr/include/c++/16/string /usr/include/c++/16/bits/stringfwd.h \
+ /usr/include/c++/16/bits/char_traits.h \
+ /usr/include/c++/16/bits/postypes.h /usr/include/c++/16/cwchar \
+ /usr/include/wchar.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdarg.h \
+ /usr/include/bits/types/wint_t.h /usr/include/bits/types/mbstate_t.h \
+ /usr/include/bits/types/__mbstate_t.h /usr/include/bits/types/__FILE.h \
+ /usr/include/bits/types/FILE.h /usr/include/c++/16/bits/localefwd.h \
+ /usr/include/c++/16/x86_64-pc-linux-gnu/bits/c++locale.h \
+ /usr/include/c++/16/clocale /usr/include/locale.h \
+ /usr/include/bits/locale.h /usr/include/c++/16/iosfwd \
+ /usr/include/c++/16/cctype /usr/include/ctype.h \
+ /usr/include/c++/16/bits/ostream_insert.h \
+ /usr/include/c++/16/bits/cxxabi_forced.h \
+ /usr/include/c++/16/bits/basic_string.h /usr/include/c++/16/string_view \
+ /usr/include/c++/16/bits/string_view.tcc \
+ /usr/include/c++/16/ext/string_conversions.h /usr/include/c++/16/cstdio \
+ /usr/include/stdio.h /usr/include/bits/types/__fpos_t.h \
+ /usr/include/bits/types/__fpos64_t.h \
+ /usr/include/bits/types/struct_FILE.h \
+ /usr/include/bits/types/cookie_io_functions_t.h \
+ /usr/include/bits/stdio_lim.h /usr/include/c++/16/cerrno \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/bits/types/error_t.h /usr/include/c++/16/bits/charconv.h \
+ /usr/include/c++/16/bits/basic_string.tcc \
+ /home/ale/Programming/3d-test/src/player.hpp \
+ /home/ale/Programming/3d-test/src/../external/imgui/backends/imgui_impl_glfw.h \
+ /home/ale/Programming/3d-test/external/imgui/imgui.h \
+ /home/ale/Programming/3d-test/external/imgui/imconfig.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/float.h \
+ /usr/include/string.h /usr/include/strings.h /usr/include/assert.h

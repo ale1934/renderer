@@ -1,5 +1,6 @@
 #pragma once
 
+#include "../external/imgui/backends/imgui_impl_glfw.h"
 #include "math3d.hpp"
 #include <GLFW/glfw3.h>
 #include <algorithm>
@@ -11,6 +12,8 @@ struct MouseDelta {
 };
 
 static void cursorCallback(GLFWwindow *window, double x, double y) {
+  ImGui_ImplGlfw_CursorPosCallback(window, x, y);
+
   auto *mouse = static_cast<MouseDelta *>(glfwGetWindowUserPointer(window));
   if (mouse->hasLast) {
     mouse->dx += x - mouse->lastX;

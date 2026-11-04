@@ -4,10 +4,12 @@
 
 /* daddy yamato pls refactor on nov3. */
 
-Mesh makeRect(Vec3 origin, Vec3 size) {
+Mesh makeRect(Vec3 origin, Vec3 size, std::string name) {
   Mesh m;
   float x = origin.x, y = origin.y, z = origin.z;
   float w = size.x, d = size.y, h = size.z;
+
+  m.name = name;
 
   // 8 corners
   m.vertices = {
@@ -32,10 +34,12 @@ Mesh makeRect(Vec3 origin, Vec3 size) {
   return m;
 }
 
-Mesh makePyramid(Vec3 origin, Vec2 dim) {
+Mesh makePyramid(Vec3 origin, Vec2 dim, std::string name) {
   Mesh m;
   float x = origin.x, y = origin.y, z = origin.z;
   float b = dim.x, h = dim.y;
+
+  m.name = name;
 
   // 5 corners
   m.vertices = {
@@ -53,8 +57,10 @@ Mesh makePyramid(Vec3 origin, Vec2 dim) {
   return m;
 }
 
-Mesh makeSphere(Vec3 origin, int seg, float r) {
+Mesh makeSphere(Vec3 origin, int seg, float r, std::string name) {
   Mesh m;
+
+  m.name = name;
 
   for (int i = 0; i <= seg; i++) {
     float theta = i * PI / seg;
@@ -86,8 +92,11 @@ Mesh makeSphere(Vec3 origin, int seg, float r) {
 }
 
 // donut
-Mesh makeTorus(float R, float r, int seg, int ring) {
+Mesh makeTorus(float R, float r, int seg, int ring, std::string name) {
   Mesh m;
+
+  m.name = name;
+
   for (int i = 0; i < seg; i++) {
     float u = i * 2 * PI / seg;
     for (int j = 0; j < ring; j++) {

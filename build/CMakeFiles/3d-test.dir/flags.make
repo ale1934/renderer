@@ -4,7 +4,7 @@
 # compile CXX with /usr/sbin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/ale/Programming/renderer/external/imgui -I/home/ale/Programming/renderer/src
+CXX_INCLUDES = -I/home/ale/Programming/3d-test/external/imgui -I/home/ale/Programming/3d-test/src
 
-CXX_FLAGS = -std=c++17 -Wall -Wextra -Wpedantic
+CXX_FLAGS = -std=c++20 -Wall -Wextra -Wpedantic
 

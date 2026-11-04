@@ -1,8 +1,8 @@
 CMakeFiles/3d-test.dir/src/lighting.cpp.o: \
- /home/ale/Programming/renderer/src/lighting.cpp \
+ /home/ale/Programming/3d-test/src/lighting.cpp \
  /usr/include/stdc-predef.h \
- /home/ale/Programming/renderer/src/lighting.hpp \
- /home/ale/Programming/renderer/src/math3d.hpp /usr/include/c++/16/cmath \
+ /home/ale/Programming/3d-test/src/lighting.hpp \
+ /home/ale/Programming/3d-test/src/math3d.hpp /usr/include/c++/16/cmath \
  /usr/include/c++/16/bits/requires_hosted.h \
  /usr/include/c++/16/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/16/x86_64-pc-linux-gnu/bits/os_defines.h \
@@ -49,18 +49,24 @@ CMakeFiles/3d-test.dir/src/lighting.cpp.o: \
  /usr/include/c++/16/bits/stl_algobase.h \
  /usr/include/c++/16/ext/numeric_traits.h \
  /usr/include/c++/16/bits/stl_pair.h /usr/include/c++/16/bits/move.h \
- /usr/include/c++/16/bits/utility.h \
+ /usr/include/c++/16/bits/utility.h /usr/include/c++/16/compare \
+ /usr/include/c++/16/concepts \
  /usr/include/c++/16/bits/stl_iterator_base_types.h \
+ /usr/include/c++/16/bits/iterator_concepts.h \
+ /usr/include/c++/16/bits/ptr_traits.h \
+ /usr/include/c++/16/bits/ranges_cmp.h \
  /usr/include/c++/16/bits/stl_iterator_base_funcs.h \
  /usr/include/c++/16/bits/concept_check.h \
  /usr/include/c++/16/debug/assertions.h \
- /usr/include/c++/16/bits/stl_iterator.h \
- /usr/include/c++/16/bits/ptr_traits.h /usr/include/c++/16/debug/debug.h \
+ /usr/include/c++/16/bits/stl_iterator.h /usr/include/c++/16/new \
+ /usr/include/c++/16/bits/exception.h \
+ /usr/include/c++/16/bits/new_except.h \
+ /usr/include/c++/16/bits/stl_construct.h \
+ /usr/include/c++/16/debug/debug.h \
  /usr/include/c++/16/bits/predefined_ops.h \
  /usr/include/c++/16/bits/stl_function.h \
  /usr/include/c++/16/backward/binders.h /usr/include/c++/16/bit \
- /usr/include/c++/16/concepts /usr/include/c++/16/limits \
- /usr/include/c++/16/tr1/gamma.tcc \
+ /usr/include/c++/16/limits /usr/include/c++/16/tr1/gamma.tcc \
  /usr/include/c++/16/tr1/special_function_util.h \
  /usr/include/c++/16/tr1/bessel_function.tcc \
  /usr/include/c++/16/tr1/beta_function.tcc \
@@ -76,9 +82,11 @@ CMakeFiles/3d-test.dir/src/lighting.cpp.o: \
  /usr/include/c++/16/bits/algorithmfwd.h \
  /usr/include/c++/16/initializer_list /usr/include/c++/16/bits/stl_heap.h \
  /usr/include/c++/16/bits/uniform_int_dist.h \
- /usr/include/c++/16/bits/stl_tempbuf.h /usr/include/c++/16/new \
- /usr/include/c++/16/bits/exception.h \
- /usr/include/c++/16/bits/new_except.h \
- /usr/include/c++/16/bits/stl_construct.h /usr/include/c++/16/cstdlib \
+ /usr/include/c++/16/bits/stl_tempbuf.h /usr/include/c++/16/cstdlib \
+ /usr/include/c++/16/bits/ranges_algo.h \
+ /usr/include/c++/16/bits/ranges_algobase.h \
+ /usr/include/c++/16/bits/ranges_base.h \
+ /usr/include/c++/16/bits/max_size_type.h /usr/include/c++/16/numbers \
+ /usr/include/c++/16/bits/invoke.h /usr/include/c++/16/bits/ranges_util.h \
  /usr/include/c++/16/pstl/glue_algorithm_defs.h \
  /usr/include/c++/16/pstl/execution_defs.h

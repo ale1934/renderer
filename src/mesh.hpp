@@ -3,6 +3,7 @@
 #include "math3d.hpp"
 
 #include <array>
+#include <string>
 #include <vector>
 
 struct Triangle {
@@ -19,6 +20,7 @@ class Mesh {
 public:
   // Default Color :D
   Color color = RAYWHITE;
+  std::string name;
 
   std::vector<Vec3> vertices;
   std::vector<Triangle> triangles;

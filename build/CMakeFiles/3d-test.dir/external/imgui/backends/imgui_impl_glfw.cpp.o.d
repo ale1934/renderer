@@ -1,8 +1,8 @@
 CMakeFiles/3d-test.dir/external/imgui/backends/imgui_impl_glfw.cpp.o: \
- /home/ale/Programming/renderer/external/imgui/backends/imgui_impl_glfw.cpp \
+ /home/ale/Programming/3d-test/external/imgui/backends/imgui_impl_glfw.cpp \
  /usr/include/stdc-predef.h \
- /home/ale/Programming/renderer/external/imgui/imgui.h \
- /home/ale/Programming/renderer/external/imgui/imconfig.h \
+ /home/ale/Programming/3d-test/external/imgui/imgui.h \
+ /home/ale/Programming/3d-test/external/imgui/imconfig.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/float.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdarg.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stddef.h \
@@ -13,7 +13,7 @@ CMakeFiles/3d-test.dir/external/imgui/backends/imgui_impl_glfw.cpp.o: \
  /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
  /usr/include/bits/types/locale_t.h /usr/include/bits/types/__locale_t.h \
  /usr/include/strings.h /usr/include/assert.h \
- /home/ale/Programming/renderer/external/imgui/backends/imgui_impl_glfw.h \
+ /home/ale/Programming/3d-test/external/imgui/backends/imgui_impl_glfw.h \
  /usr/include/GLFW/glfw3.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/types.h \
@@ -39,14 +39,14 @@ CMakeFiles/3d-test.dir/external/imgui/backends/imgui_impl_glfw.cpp.o: \
  /usr/include/X11/Xfuncproto.h /usr/include/X11/Xosdefs.h \
  /usr/include/X11/extensions/Xrandr.h /usr/include/X11/extensions/randr.h \
  /usr/include/X11/extensions/Xrender.h /usr/include/X11/Xutil.h \
- /usr/include/X11/keysym.h /usr/include/X11/keysymdef.h \
- /usr/include/X11/extensions/render.h /usr/include/X11/Xdefs.h \
- /usr/include/unistd.h /usr/include/bits/posix_opt.h \
- /usr/include/bits/environments.h /usr/include/bits/confname.h \
- /usr/include/bits/getopt_posix.h /usr/include/bits/getopt_core.h \
- /usr/include/bits/unistd_ext.h /usr/include/linux/close_range.h \
- /usr/include/stdio.h /usr/include/bits/types/__fpos_t.h \
- /usr/include/bits/types/__mbstate_t.h \
+ /usr/include/X11/Xresource.h /usr/include/X11/keysym.h \
+ /usr/include/X11/keysymdef.h /usr/include/X11/extensions/render.h \
+ /usr/include/X11/Xdefs.h /usr/include/unistd.h \
+ /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+ /usr/include/bits/confname.h /usr/include/bits/getopt_posix.h \
+ /usr/include/bits/getopt_core.h /usr/include/bits/unistd_ext.h \
+ /usr/include/linux/close_range.h /usr/include/stdio.h \
+ /usr/include/bits/types/__fpos_t.h /usr/include/bits/types/__mbstate_t.h \
  /usr/include/bits/types/__fpos64_t.h /usr/include/bits/types/__FILE.h \
  /usr/include/bits/types/FILE.h /usr/include/bits/types/struct_FILE.h \
  /usr/include/bits/types/cookie_io_functions_t.h \

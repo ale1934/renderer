@@ -21,6 +21,8 @@ events:
       - "uname"
     candidate_directories:
       - "/home/ale/.local/share/nvim/mason/bin/"
+      - "/home/ale/Programming/over-language/bin/"
+      - "/home/ale/dev/osxcross/target/bin/"
       - "/home/ale/.cargo/bin/"
       - "/home/ale/.local/bin/"
       - "/usr/local/sbin/"
@@ -29,12 +31,15 @@ events:
       - "/usr/bin/"
       - "/sbin/"
       - "/bin/"
+      - "/var/lib/flatpak/exports/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
     searched_directories:
       - "/home/ale/.local/share/nvim/mason/bin/uname"
+      - "/home/ale/Programming/over-language/bin/uname"
+      - "/home/ale/dev/osxcross/target/bin/uname"
       - "/home/ale/.cargo/bin/uname"
       - "/home/ale/.local/bin/uname"
       - "/usr/local/sbin/uname"
@@ -43,6 +48,8 @@ events:
     search_context:
       ENV{PATH}:
         - "/home/ale/.local/share/nvim/mason/bin"
+        - "/home/ale/Programming/over-language/bin"
+        - "/home/ale/dev/osxcross/target/bin"
         - "/home/ale/.cargo/bin"
         - "/home/ale/.local/bin"
         - "/usr/local/sbin"
@@ -51,6 +58,7 @@ events:
         - "/usr/bin"
         - "/sbin"
         - "/bin"
+        - "/var/lib/flatpak/exports/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
@@ -61,7 +69,7 @@ events:
       - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:218 (message)"
       - "CMakeLists.txt:3 (project)"
     message: |
-      The system is: Linux - 7.2.10-arch1-1 - x86_64
+      The system is: Linux - 7.2.14-arch1-1 - x86_64
   -
     kind: "find-v1"
     backtrace:
@@ -84,6 +92,8 @@ events:
       - "smake"
     candidate_directories:
       - "/home/ale/.local/share/nvim/mason/bin/"
+      - "/home/ale/Programming/over-language/bin/"
+      - "/home/ale/dev/osxcross/target/bin/"
       - "/home/ale/.cargo/bin/"
       - "/home/ale/.local/bin/"
       - "/usr/local/sbin/"
@@ -92,12 +102,15 @@ events:
       - "/usr/bin/"
       - "/sbin/"
       - "/bin/"
+      - "/var/lib/flatpak/exports/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
     searched_directories:
       - "/home/ale/.local/share/nvim/mason/bin/gmake"
+      - "/home/ale/Programming/over-language/bin/gmake"
+      - "/home/ale/dev/osxcross/target/bin/gmake"
       - "/home/ale/.cargo/bin/gmake"
       - "/home/ale/.local/bin/gmake"
       - "/usr/local/sbin/gmake"
@@ -106,11 +119,14 @@ events:
       - "/usr/bin/gmake"
       - "/sbin/gmake"
       - "/bin/gmake"
+      - "/var/lib/flatpak/exports/bin/gmake"
       - "/usr/lib/jvm/default/bin/gmake"
       - "/usr/bin/site_perl/gmake"
       - "/usr/bin/vendor_perl/gmake"
       - "/usr/bin/core_perl/gmake"
       - "/home/ale/.local/share/nvim/mason/bin/make"
+      - "/home/ale/Programming/over-language/bin/make"
+      - "/home/ale/dev/osxcross/target/bin/make"
       - "/home/ale/.cargo/bin/make"
       - "/home/ale/.local/bin/make"
       - "/usr/local/sbin/make"
@@ -119,6 +135,8 @@ events:
     search_context:
       ENV{PATH}:
         - "/home/ale/.local/share/nvim/mason/bin"
+        - "/home/ale/Programming/over-language/bin"
+        - "/home/ale/dev/osxcross/target/bin"
         - "/home/ale/.cargo/bin"
         - "/home/ale/.local/bin"
         - "/usr/local/sbin"
@@ -127,6 +145,7 @@ events:
         - "/usr/bin"
         - "/sbin"
         - "/bin"
+        - "/var/lib/flatpak/exports/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
@@ -161,6 +180,8 @@ events:
       - "clang++"
     candidate_directories:
       - "/home/ale/.local/share/nvim/mason/bin/"
+      - "/home/ale/Programming/over-language/bin/"
+      - "/home/ale/dev/osxcross/target/bin/"
       - "/home/ale/.cargo/bin/"
       - "/home/ale/.local/bin/"
       - "/usr/local/sbin/"
@@ -169,12 +190,15 @@ events:
       - "/usr/bin/"
       - "/sbin/"
       - "/bin/"
+      - "/var/lib/flatpak/exports/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
     searched_directories:
       - "/home/ale/.local/share/nvim/mason/bin/c++"
+      - "/home/ale/Programming/over-language/bin/c++"
+      - "/home/ale/dev/osxcross/target/bin/c++"
       - "/home/ale/.cargo/bin/c++"
       - "/home/ale/.local/bin/c++"
       - "/usr/local/sbin/c++"
@@ -183,6 +207,8 @@ events:
     search_context:
       ENV{PATH}:
         - "/home/ale/.local/share/nvim/mason/bin"
+        - "/home/ale/Programming/over-language/bin"
+        - "/home/ale/dev/osxcross/target/bin"
         - "/home/ale/.cargo/bin"
         - "/home/ale/.local/bin"
         - "/usr/local/sbin"
@@ -191,6 +217,7 @@ events:
         - "/usr/bin"
         - "/sbin"
         - "/bin"
+        - "/var/lib/flatpak/exports/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
@@ -223,6 +250,8 @@ events:
     search_context:
       ENV{PATH}:
         - "/home/ale/.local/share/nvim/mason/bin"
+        - "/home/ale/Programming/over-language/bin"
+        - "/home/ale/dev/osxcross/target/bin"
         - "/home/ale/.cargo/bin"
         - "/home/ale/.local/bin"
         - "/usr/local/sbin"
@@ -231,6 +260,7 @@ events:
         - "/usr/bin"
         - "/sbin"
         - "/bin"
+        - "/var/lib/flatpak/exports/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
@@ -255,7 +285,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
       
       The CXX compiler identification is GNU, found in:
-        /home/ale/Programming/renderer/build/CMakeFiles/4.4.4/CompilerIdCXX/a.out
+        /home/ale/Programming/3d-test/build/CMakeFiles/4.4.5/CompilerIdCXX/a.out
       
   -
     kind: "find-v1"
@@ -279,6 +309,8 @@ events:
     candidate_directories:
       - "/usr/sbin/"
       - "/home/ale/.local/share/nvim/mason/bin/"
+      - "/home/ale/Programming/over-language/bin/"
+      - "/home/ale/dev/osxcross/target/bin/"
       - "/home/ale/.cargo/bin/"
       - "/home/ale/.local/bin/"
       - "/usr/local/sbin/"
@@ -286,6 +318,7 @@ events:
       - "/usr/bin/"
       - "/sbin/"
       - "/bin/"
+      - "/var/lib/flatpak/exports/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
@@ -294,6 +327,8 @@ events:
     search_context:
       ENV{PATH}:
         - "/home/ale/.local/share/nvim/mason/bin"
+        - "/home/ale/Programming/over-language/bin"
+        - "/home/ale/dev/osxcross/target/bin"
         - "/home/ale/.cargo/bin"
         - "/home/ale/.local/bin"
         - "/usr/local/sbin"
@@ -302,6 +337,7 @@ events:
         - "/usr/bin"
         - "/sbin"
         - "/bin"
+        - "/var/lib/flatpak/exports/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
@@ -328,6 +364,8 @@ events:
     candidate_directories:
       - "/usr/sbin/"
       - "/home/ale/.local/share/nvim/mason/bin/"
+      - "/home/ale/Programming/over-language/bin/"
+      - "/home/ale/dev/osxcross/target/bin/"
       - "/home/ale/.cargo/bin/"
       - "/home/ale/.local/bin/"
       - "/usr/local/sbin/"
@@ -335,6 +373,7 @@ events:
       - "/usr/bin/"
       - "/sbin/"
       - "/bin/"
+      - "/var/lib/flatpak/exports/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
@@ -343,6 +382,8 @@ events:
     search_context:
       ENV{PATH}:
         - "/home/ale/.local/share/nvim/mason/bin"
+        - "/home/ale/Programming/over-language/bin"
+        - "/home/ale/dev/osxcross/target/bin"
         - "/home/ale/.cargo/bin"
         - "/home/ale/.local/bin"
         - "/usr/local/sbin"
@@ -351,6 +392,7 @@ events:
         - "/usr/bin"
         - "/sbin"
         - "/bin"
+        - "/var/lib/flatpak/exports/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
@@ -377,6 +419,8 @@ events:
     candidate_directories:
       - "/usr/sbin/"
       - "/home/ale/.local/share/nvim/mason/bin/"
+      - "/home/ale/Programming/over-language/bin/"
+      - "/home/ale/dev/osxcross/target/bin/"
       - "/home/ale/.cargo/bin/"
       - "/home/ale/.local/bin/"
       - "/usr/local/sbin/"
@@ -384,6 +428,7 @@ events:
       - "/usr/bin/"
       - "/sbin/"
       - "/bin/"
+      - "/var/lib/flatpak/exports/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
@@ -392,6 +437,8 @@ events:
     search_context:
       ENV{PATH}:
         - "/home/ale/.local/share/nvim/mason/bin"
+        - "/home/ale/Programming/over-language/bin"
+        - "/home/ale/dev/osxcross/target/bin"
         - "/home/ale/.cargo/bin"
         - "/home/ale/.local/bin"
         - "/usr/local/sbin"
@@ -400,6 +447,7 @@ events:
         - "/usr/bin"
         - "/sbin"
         - "/bin"
+        - "/var/lib/flatpak/exports/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
@@ -426,6 +474,8 @@ events:
     candidate_directories:
       - "/usr/sbin/"
       - "/home/ale/.local/share/nvim/mason/bin/"
+      - "/home/ale/Programming/over-language/bin/"
+      - "/home/ale/dev/osxcross/target/bin/"
       - "/home/ale/.cargo/bin/"
       - "/home/ale/.local/bin/"
       - "/usr/local/sbin/"
@@ -433,6 +483,7 @@ events:
       - "/usr/bin/"
       - "/sbin/"
       - "/bin/"
+      - "/var/lib/flatpak/exports/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
@@ -441,6 +492,8 @@ events:
     search_context:
       ENV{PATH}:
         - "/home/ale/.local/share/nvim/mason/bin"
+        - "/home/ale/Programming/over-language/bin"
+        - "/home/ale/dev/osxcross/target/bin"
         - "/home/ale/.cargo/bin"
         - "/home/ale/.local/bin"
         - "/usr/local/sbin"
@@ -449,6 +502,7 @@ events:
         - "/usr/bin"
         - "/sbin"
         - "/bin"
+        - "/var/lib/flatpak/exports/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
@@ -475,6 +529,8 @@ events:
     candidate_directories:
       - "/usr/sbin/"
       - "/home/ale/.local/share/nvim/mason/bin/"
+      - "/home/ale/Programming/over-language/bin/"
+      - "/home/ale/dev/osxcross/target/bin/"
       - "/home/ale/.cargo/bin/"
       - "/home/ale/.local/bin/"
       - "/usr/local/sbin/"
@@ -482,6 +538,7 @@ events:
       - "/usr/bin/"
       - "/sbin/"
       - "/bin/"
+      - "/var/lib/flatpak/exports/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
@@ -490,6 +547,8 @@ events:
     search_context:
       ENV{PATH}:
         - "/home/ale/.local/share/nvim/mason/bin"
+        - "/home/ale/Programming/over-language/bin"
+        - "/home/ale/dev/osxcross/target/bin"
         - "/home/ale/.cargo/bin"
         - "/home/ale/.local/bin"
         - "/usr/local/sbin"
@@ -498,6 +557,7 @@ events:
         - "/usr/bin"
         - "/sbin"
         - "/bin"
+        - "/var/lib/flatpak/exports/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
@@ -524,6 +584,8 @@ events:
     candidate_directories:
       - "/usr/sbin/"
       - "/home/ale/.local/share/nvim/mason/bin/"
+      - "/home/ale/Programming/over-language/bin/"
+      - "/home/ale/dev/osxcross/target/bin/"
       - "/home/ale/.cargo/bin/"
       - "/home/ale/.local/bin/"
       - "/usr/local/sbin/"
@@ -531,6 +593,7 @@ events:
       - "/usr/bin/"
       - "/sbin/"
       - "/bin/"
+      - "/var/lib/flatpak/exports/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
@@ -539,6 +602,8 @@ events:
     search_context:
       ENV{PATH}:
         - "/home/ale/.local/share/nvim/mason/bin"
+        - "/home/ale/Programming/over-language/bin"
+        - "/home/ale/dev/osxcross/target/bin"
         - "/home/ale/.cargo/bin"
         - "/home/ale/.local/bin"
         - "/usr/local/sbin"
@@ -547,6 +612,7 @@ events:
         - "/usr/bin"
         - "/sbin"
         - "/bin"
+        - "/var/lib/flatpak/exports/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
@@ -573,6 +639,8 @@ events:
     candidate_directories:
       - "/usr/sbin/"
       - "/home/ale/.local/share/nvim/mason/bin/"
+      - "/home/ale/Programming/over-language/bin/"
+      - "/home/ale/dev/osxcross/target/bin/"
       - "/home/ale/.cargo/bin/"
       - "/home/ale/.local/bin/"
       - "/usr/local/sbin/"
@@ -580,6 +648,7 @@ events:
       - "/usr/bin/"
       - "/sbin/"
       - "/bin/"
+      - "/var/lib/flatpak/exports/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
@@ -588,6 +657,8 @@ events:
     search_context:
       ENV{PATH}:
         - "/home/ale/.local/share/nvim/mason/bin"
+        - "/home/ale/Programming/over-language/bin"
+        - "/home/ale/dev/osxcross/target/bin"
         - "/home/ale/.cargo/bin"
         - "/home/ale/.local/bin"
         - "/usr/local/sbin"
@@ -596,6 +667,7 @@ events:
         - "/usr/bin"
         - "/sbin"
         - "/bin"
+        - "/var/lib/flatpak/exports/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
@@ -622,6 +694,8 @@ events:
     candidate_directories:
       - "/usr/sbin/"
       - "/home/ale/.local/share/nvim/mason/bin/"
+      - "/home/ale/Programming/over-language/bin/"
+      - "/home/ale/dev/osxcross/target/bin/"
       - "/home/ale/.cargo/bin/"
       - "/home/ale/.local/bin/"
       - "/usr/local/sbin/"
@@ -629,6 +703,7 @@ events:
       - "/usr/bin/"
       - "/sbin/"
       - "/bin/"
+      - "/var/lib/flatpak/exports/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
@@ -637,6 +712,8 @@ events:
     search_context:
       ENV{PATH}:
         - "/home/ale/.local/share/nvim/mason/bin"
+        - "/home/ale/Programming/over-language/bin"
+        - "/home/ale/dev/osxcross/target/bin"
         - "/home/ale/.cargo/bin"
         - "/home/ale/.local/bin"
         - "/usr/local/sbin"
@@ -645,6 +722,7 @@ events:
         - "/usr/bin"
         - "/sbin"
         - "/bin"
+        - "/var/lib/flatpak/exports/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
@@ -671,6 +749,8 @@ events:
     candidate_directories:
       - "/usr/sbin/"
       - "/home/ale/.local/share/nvim/mason/bin/"
+      - "/home/ale/Programming/over-language/bin/"
+      - "/home/ale/dev/osxcross/target/bin/"
       - "/home/ale/.cargo/bin/"
       - "/home/ale/.local/bin/"
       - "/usr/local/sbin/"
@@ -678,6 +758,7 @@ events:
       - "/usr/bin/"
       - "/sbin/"
       - "/bin/"
+      - "/var/lib/flatpak/exports/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
@@ -685,6 +766,8 @@ events:
     searched_directories:
       - "/usr/sbin/dlltool"
       - "/home/ale/.local/share/nvim/mason/bin/dlltool"
+      - "/home/ale/Programming/over-language/bin/dlltool"
+      - "/home/ale/dev/osxcross/target/bin/dlltool"
       - "/home/ale/.cargo/bin/dlltool"
       - "/home/ale/.local/bin/dlltool"
       - "/usr/local/sbin/dlltool"
@@ -692,6 +775,7 @@ events:
       - "/usr/bin/dlltool"
       - "/sbin/dlltool"
       - "/bin/dlltool"
+      - "/var/lib/flatpak/exports/bin/dlltool"
       - "/usr/lib/jvm/default/bin/dlltool"
       - "/usr/bin/site_perl/dlltool"
       - "/usr/bin/vendor_perl/dlltool"
@@ -700,6 +784,8 @@ events:
     search_context:
       ENV{PATH}:
         - "/home/ale/.local/share/nvim/mason/bin"
+        - "/home/ale/Programming/over-language/bin"
+        - "/home/ale/dev/osxcross/target/bin"
         - "/home/ale/.cargo/bin"
         - "/home/ale/.local/bin"
         - "/usr/local/sbin"
@@ -708,6 +794,7 @@ events:
         - "/usr/bin"
         - "/sbin"
         - "/bin"
+        - "/var/lib/flatpak/exports/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
@@ -734,6 +821,8 @@ events:
     candidate_directories:
       - "/usr/sbin/"
       - "/home/ale/.local/share/nvim/mason/bin/"
+      - "/home/ale/Programming/over-language/bin/"
+      - "/home/ale/dev/osxcross/target/bin/"
       - "/home/ale/.cargo/bin/"
       - "/home/ale/.local/bin/"
       - "/usr/local/sbin/"
@@ -741,6 +830,7 @@ events:
       - "/usr/bin/"
       - "/sbin/"
       - "/bin/"
+      - "/var/lib/flatpak/exports/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
@@ -749,6 +839,8 @@ events:
     search_context:
       ENV{PATH}:
         - "/home/ale/.local/share/nvim/mason/bin"
+        - "/home/ale/Programming/over-language/bin"
+        - "/home/ale/dev/osxcross/target/bin"
         - "/home/ale/.cargo/bin"
         - "/home/ale/.local/bin"
         - "/usr/local/sbin"
@@ -757,6 +849,7 @@ events:
         - "/usr/bin"
         - "/sbin"
         - "/bin"
+        - "/var/lib/flatpak/exports/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
@@ -783,6 +876,8 @@ events:
     candidate_directories:
       - "/usr/sbin/"
       - "/home/ale/.local/share/nvim/mason/bin/"
+      - "/home/ale/Programming/over-language/bin/"
+      - "/home/ale/dev/osxcross/target/bin/"
       - "/home/ale/.cargo/bin/"
       - "/home/ale/.local/bin/"
       - "/usr/local/sbin/"
@@ -790,6 +885,7 @@ events:
       - "/usr/bin/"
       - "/sbin/"
       - "/bin/"
+      - "/var/lib/flatpak/exports/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
@@ -797,6 +893,8 @@ events:
     searched_directories:
       - "/usr/sbin/tapi"
       - "/home/ale/.local/share/nvim/mason/bin/tapi"
+      - "/home/ale/Programming/over-language/bin/tapi"
+      - "/home/ale/dev/osxcross/target/bin/tapi"
       - "/home/ale/.cargo/bin/tapi"
       - "/home/ale/.local/bin/tapi"
       - "/usr/local/sbin/tapi"
@@ -804,6 +902,7 @@ events:
       - "/usr/bin/tapi"
       - "/sbin/tapi"
       - "/bin/tapi"
+      - "/var/lib/flatpak/exports/bin/tapi"
       - "/usr/lib/jvm/default/bin/tapi"
       - "/usr/bin/site_perl/tapi"
       - "/usr/bin/vendor_perl/tapi"
@@ -812,6 +911,8 @@ events:
     search_context:
       ENV{PATH}:
         - "/home/ale/.local/share/nvim/mason/bin"
+        - "/home/ale/Programming/over-language/bin"
+        - "/home/ale/dev/osxcross/target/bin"
         - "/home/ale/.cargo/bin"
         - "/home/ale/.local/bin"
         - "/usr/local/sbin"
@@ -820,6 +921,7 @@ events:
         - "/usr/bin"
         - "/sbin"
         - "/bin"
+        - "/var/lib/flatpak/exports/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
@@ -849,6 +951,8 @@ events:
     candidate_directories:
       - "/usr/sbin/"
       - "/home/ale/.local/share/nvim/mason/bin/"
+      - "/home/ale/Programming/over-language/bin/"
+      - "/home/ale/dev/osxcross/target/bin/"
       - "/home/ale/.cargo/bin/"
       - "/home/ale/.local/bin/"
       - "/usr/local/sbin/"
@@ -856,6 +960,7 @@ events:
       - "/usr/bin/"
       - "/sbin/"
       - "/bin/"
+      - "/var/lib/flatpak/exports/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
@@ -863,6 +968,8 @@ events:
     searched_directories:
       - "/usr/sbin/gcc-ar-16.2"
       - "/home/ale/.local/share/nvim/mason/bin/gcc-ar-16.2"
+      - "/home/ale/Programming/over-language/bin/gcc-ar-16.2"
+      - "/home/ale/dev/osxcross/target/bin/gcc-ar-16.2"
       - "/home/ale/.cargo/bin/gcc-ar-16.2"
       - "/home/ale/.local/bin/gcc-ar-16.2"
       - "/usr/local/sbin/gcc-ar-16.2"
@@ -870,12 +977,15 @@ events:
       - "/usr/bin/gcc-ar-16.2"
       - "/sbin/gcc-ar-16.2"
       - "/bin/gcc-ar-16.2"
+      - "/var/lib/flatpak/exports/bin/gcc-ar-16.2"
       - "/usr/lib/jvm/default/bin/gcc-ar-16.2"
       - "/usr/bin/site_perl/gcc-ar-16.2"
       - "/usr/bin/vendor_perl/gcc-ar-16.2"
       - "/usr/bin/core_perl/gcc-ar-16.2"
       - "/usr/sbin/gcc-ar-16"
       - "/home/ale/.local/share/nvim/mason/bin/gcc-ar-16"
+      - "/home/ale/Programming/over-language/bin/gcc-ar-16"
+      - "/home/ale/dev/osxcross/target/bin/gcc-ar-16"
       - "/home/ale/.cargo/bin/gcc-ar-16"
       - "/home/ale/.local/bin/gcc-ar-16"
       - "/usr/local/sbin/gcc-ar-16"
@@ -883,12 +993,15 @@ events:
       - "/usr/bin/gcc-ar-16"
       - "/sbin/gcc-ar-16"
       - "/bin/gcc-ar-16"
+      - "/var/lib/flatpak/exports/bin/gcc-ar-16"
       - "/usr/lib/jvm/default/bin/gcc-ar-16"
       - "/usr/bin/site_perl/gcc-ar-16"
       - "/usr/bin/vendor_perl/gcc-ar-16"
       - "/usr/bin/core_perl/gcc-ar-16"
       - "/usr/sbin/gcc-ar16"
       - "/home/ale/.local/share/nvim/mason/bin/gcc-ar16"
+      - "/home/ale/Programming/over-language/bin/gcc-ar16"
+      - "/home/ale/dev/osxcross/target/bin/gcc-ar16"
       - "/home/ale/.cargo/bin/gcc-ar16"
       - "/home/ale/.local/bin/gcc-ar16"
       - "/usr/local/sbin/gcc-ar16"
@@ -896,6 +1009,7 @@ events:
       - "/usr/bin/gcc-ar16"
       - "/sbin/gcc-ar16"
       - "/bin/gcc-ar16"
+      - "/var/lib/flatpak/exports/bin/gcc-ar16"
       - "/usr/lib/jvm/default/bin/gcc-ar16"
       - "/usr/bin/site_perl/gcc-ar16"
       - "/usr/bin/vendor_perl/gcc-ar16"
@@ -904,6 +1018,8 @@ events:
     search_context:
       ENV{PATH}:
         - "/home/ale/.local/share/nvim/mason/bin"
+        - "/home/ale/Programming/over-language/bin"
+        - "/home/ale/dev/osxcross/target/bin"
         - "/home/ale/.cargo/bin"
         - "/home/ale/.local/bin"
         - "/usr/local/sbin"
@@ -912,6 +1028,7 @@ events:
         - "/usr/bin"
         - "/sbin"
         - "/bin"
+        - "/var/lib/flatpak/exports/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
@@ -941,6 +1058,8 @@ events:
     candidate_directories:
       - "/usr/sbin/"
       - "/home/ale/.local/share/nvim/mason/bin/"
+      - "/home/ale/Programming/over-language/bin/"
+      - "/home/ale/dev/osxcross/target/bin/"
       - "/home/ale/.cargo/bin/"
       - "/home/ale/.local/bin/"
       - "/usr/local/sbin/"
@@ -948,6 +1067,7 @@ events:
       - "/usr/bin/"
       - "/sbin/"
       - "/bin/"
+      - "/var/lib/flatpak/exports/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
@@ -955,6 +1075,8 @@ events:
     searched_directories:
       - "/usr/sbin/gcc-ranlib-16.2"
       - "/home/ale/.local/share/nvim/mason/bin/gcc-ranlib-16.2"
+      - "/home/ale/Programming/over-language/bin/gcc-ranlib-16.2"
+      - "/home/ale/dev/osxcross/target/bin/gcc-ranlib-16.2"
       - "/home/ale/.cargo/bin/gcc-ranlib-16.2"
       - "/home/ale/.local/bin/gcc-ranlib-16.2"
       - "/usr/local/sbin/gcc-ranlib-16.2"
@@ -962,12 +1084,15 @@ events:
       - "/usr/bin/gcc-ranlib-16.2"
       - "/sbin/gcc-ranlib-16.2"
       - "/bin/gcc-ranlib-16.2"
+      - "/var/lib/flatpak/exports/bin/gcc-ranlib-16.2"
       - "/usr/lib/jvm/default/bin/gcc-ranlib-16.2"
       - "/usr/bin/site_perl/gcc-ranlib-16.2"
       - "/usr/bin/vendor_perl/gcc-ranlib-16.2"
       - "/usr/bin/core_perl/gcc-ranlib-16.2"
       - "/usr/sbin/gcc-ranlib-16"
       - "/home/ale/.local/share/nvim/mason/bin/gcc-ranlib-16"
+      - "/home/ale/Programming/over-language/bin/gcc-ranlib-16"
+      - "/home/ale/dev/osxcross/target/bin/gcc-ranlib-16"
       - "/home/ale/.cargo/bin/gcc-ranlib-16"
       - "/home/ale/.local/bin/gcc-ranlib-16"
       - "/usr/local/sbin/gcc-ranlib-16"
@@ -975,12 +1100,15 @@ events:
       - "/usr/bin/gcc-ranlib-16"
       - "/sbin/gcc-ranlib-16"
       - "/bin/gcc-ranlib-16"
+      - "/var/lib/flatpak/exports/bin/gcc-ranlib-16"
       - "/usr/lib/jvm/default/bin/gcc-ranlib-16"
       - "/usr/bin/site_perl/gcc-ranlib-16"
       - "/usr/bin/vendor_perl/gcc-ranlib-16"
       - "/usr/bin/core_perl/gcc-ranlib-16"
       - "/usr/sbin/gcc-ranlib16"
       - "/home/ale/.local/share/nvim/mason/bin/gcc-ranlib16"
+      - "/home/ale/Programming/over-language/bin/gcc-ranlib16"
+      - "/home/ale/dev/osxcross/target/bin/gcc-ranlib16"
       - "/home/ale/.cargo/bin/gcc-ranlib16"
       - "/home/ale/.local/bin/gcc-ranlib16"
       - "/usr/local/sbin/gcc-ranlib16"
@@ -988,6 +1116,7 @@ events:
       - "/usr/bin/gcc-ranlib16"
       - "/sbin/gcc-ranlib16"
       - "/bin/gcc-ranlib16"
+      - "/var/lib/flatpak/exports/bin/gcc-ranlib16"
       - "/usr/lib/jvm/default/bin/gcc-ranlib16"
       - "/usr/bin/site_perl/gcc-ranlib16"
       - "/usr/bin/vendor_perl/gcc-ranlib16"
@@ -996,6 +1125,8 @@ events:
     search_context:
       ENV{PATH}:
         - "/home/ale/.local/share/nvim/mason/bin"
+        - "/home/ale/Programming/over-language/bin"
+        - "/home/ale/dev/osxcross/target/bin"
         - "/home/ale/.cargo/bin"
         - "/home/ale/.local/bin"
         - "/usr/local/sbin"
@@ -1004,6 +1135,7 @@ events:
         - "/usr/bin"
         - "/sbin"
         - "/bin"
+        - "/var/lib/flatpak/exports/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
@@ -1017,8 +1149,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/ale/Programming/renderer/build/CMakeFiles/CMakeScratch/TryCompile-VYyHWU"
-      binary: "/home/ale/Programming/renderer/build/CMakeFiles/CMakeScratch/TryCompile-VYyHWU"
+      source: "/home/ale/Programming/3d-test/build/CMakeFiles/CMakeScratch/TryCompile-nEQH1o"
+      binary: "/home/ale/Programming/3d-test/build/CMakeFiles/CMakeScratch/TryCompile-nEQH1o"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1029,13 +1161,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: false
       stdout: |
-        Change Dir: '/home/ale/Programming/renderer/build/CMakeFiles/CMakeScratch/TryCompile-VYyHWU'
+        Change Dir: '/home/ale/Programming/3d-test/build/CMakeFiles/CMakeScratch/TryCompile-nEQH1o'
         
-        Run Build Command(s): /usr/sbin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_71aa8/fast
-        /usr/sbin/make  -f CMakeFiles/cmTC_71aa8.dir/build.make CMakeFiles/cmTC_71aa8.dir/build
-        make[1]: Entering directory '/home/ale/Programming/renderer/build/CMakeFiles/CMakeScratch/TryCompile-VYyHWU'
-        Building CXX object CMakeFiles/cmTC_71aa8.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/sbin/c++   -v -o CMakeFiles/cmTC_71aa8.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/sbin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_23816/fast
+        /usr/sbin/make  -f CMakeFiles/cmTC_23816.dir/build.make CMakeFiles/cmTC_23816.dir/build
+        make[1]: Entering directory '/home/ale/Programming/3d-test/build/CMakeFiles/CMakeScratch/TryCompile-nEQH1o'
+        Building CXX object CMakeFiles/cmTC_23816.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/sbin/c++   -v -o CMakeFiles/cmTC_23816.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/sbin/c++
         Target: x86_64-pc-linux-gnu
@@ -1043,8 +1175,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 16.2.1 20260810 (GCC) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_71aa8.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_71aa8.dir/'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/16/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_71aa8.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccB24ecI.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_23816.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_23816.dir/'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/16/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_23816.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccFy5m5e.s
         GNU C++20 (GCC) version 16.2.1 20260810 (x86_64-pc-linux-gnu)
         	compiled by GNU C version 16.2.1 20260810, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.4.1, isl version isl-0.28-GMP
         
@@ -1061,14 +1193,14 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: 4e9ac8b201f4ca740be09d0c7a39f82f
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_71aa8.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_71aa8.dir/'
-         as -v --64 -o CMakeFiles/cmTC_71aa8.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccB24ecI.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_23816.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_23816.dir/'
+         as -v --64 -o CMakeFiles/cmTC_23816.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccFy5m5e.s
         GNU assembler version 2.47 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.47
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_71aa8.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_71aa8.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_71aa8
-        /usr/sbin/cmake -E cmake_link_script CMakeFiles/cmTC_71aa8.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_23816.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_23816.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_23816
+        /usr/sbin/cmake -E cmake_link_script CMakeFiles/cmTC_23816.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/usr/sbin/c++
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper
@@ -1079,14 +1211,14 @@ events:
         gcc version 16.2.1 20260810 (GCC) 
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_71aa8' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_71aa8.'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/16/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfnrvjZ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_71aa8 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_71aa8.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_23816' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_23816.'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/16/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/cc9cZ0L9.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_23816 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_23816.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o
         collect2 version 16.2.1 20260810
-        /usr/sbin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfnrvjZ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_71aa8 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_71aa8.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o
+        /usr/sbin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/cc9cZ0L9.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_23816 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_23816.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o
         GNU ld (GNU Binutils) 2.47
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_71aa8' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_71aa8.'
-        /usr/sbin/c++  -v -Wl,-v CMakeFiles/cmTC_71aa8.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_71aa8
-        make[1]: Leaving directory '/home/ale/Programming/renderer/build/CMakeFiles/CMakeScratch/TryCompile-VYyHWU'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_23816' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_23816.'
+        /usr/sbin/c++  -v -Wl,-v CMakeFiles/cmTC_23816.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_23816
+        make[1]: Leaving directory '/home/ale/Programming/3d-test/build/CMakeFiles/CMakeScratch/TryCompile-nEQH1o'
         
       exitCode: 0
   -
@@ -1125,13 +1257,13 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild))("|,| |$)]
-        ignore line: [Change Dir: '/home/ale/Programming/renderer/build/CMakeFiles/CMakeScratch/TryCompile-VYyHWU']
+        ignore line: [Change Dir: '/home/ale/Programming/3d-test/build/CMakeFiles/CMakeScratch/TryCompile-nEQH1o']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/sbin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_71aa8/fast]
-        ignore line: [/usr/sbin/make  -f CMakeFiles/cmTC_71aa8.dir/build.make CMakeFiles/cmTC_71aa8.dir/build]
-        ignore line: [make[1]: Entering directory '/home/ale/Programming/renderer/build/CMakeFiles/CMakeScratch/TryCompile-VYyHWU']
-        ignore line: [Building CXX object CMakeFiles/cmTC_71aa8.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/sbin/c++   -v -o CMakeFiles/cmTC_71aa8.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/sbin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_23816/fast]
+        ignore line: [/usr/sbin/make  -f CMakeFiles/cmTC_23816.dir/build.make CMakeFiles/cmTC_23816.dir/build]
+        ignore line: [make[1]: Entering directory '/home/ale/Programming/3d-test/build/CMakeFiles/CMakeScratch/TryCompile-nEQH1o']
+        ignore line: [Building CXX object CMakeFiles/cmTC_23816.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/sbin/c++   -v -o CMakeFiles/cmTC_23816.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/sbin/c++]
         ignore line: [Target: x86_64-pc-linux-gnu]
@@ -1139,8 +1271,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 16.2.1 20260810 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_71aa8.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_71aa8.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/16/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_71aa8.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccB24ecI.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_23816.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_23816.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/16/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_23816.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccFy5m5e.s]
         ignore line: [GNU C++20 (GCC) version 16.2.1 20260810 (x86_64-pc-linux-gnu)]
         ignore line: [	compiled by GNU C version 16.2.1 20260810  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.4.1  isl version isl-0.28-GMP]
         ignore line: []
@@ -1157,14 +1289,14 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 4e9ac8b201f4ca740be09d0c7a39f82f]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_71aa8.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_71aa8.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_71aa8.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccB24ecI.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_23816.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_23816.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_23816.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccFy5m5e.s]
         ignore line: [GNU assembler version 2.47 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.47]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_71aa8.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_71aa8.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_71aa8]
-        ignore line: [/usr/sbin/cmake -E cmake_link_script CMakeFiles/cmTC_71aa8.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_23816.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_23816.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_23816]
+        ignore line: [/usr/sbin/cmake -E cmake_link_script CMakeFiles/cmTC_23816.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/sbin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper]
@@ -1175,13 +1307,13 @@ events:
         ignore line: [gcc version 16.2.1 20260810 (GCC) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_71aa8' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_71aa8.']
-        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/16/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfnrvjZ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_71aa8 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_71aa8.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_23816' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_23816.']
+        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/16/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/cc9cZ0L9.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_23816 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_23816.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccfnrvjZ.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc9cZ0L9.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-latomic_asneeded] ==> ignore
@@ -1197,7 +1329,7 @@ events:
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-pie] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_71aa8] ==> ignore
+          arg [cmTC_23816] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o]
@@ -1209,7 +1341,7 @@ events:
           arg [-L/lib] ==> dir [/lib]
           arg [-L/usr/lib] ==> dir [/usr/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_71aa8.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_23816.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -1221,9 +1353,9 @@ events:
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o]
         ignore line: [collect2 version 16.2.1 20260810]
-        link line: [/usr/sbin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfnrvjZ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_71aa8 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_71aa8.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o] ==> linker [/usr/sbin/ld]
-        link line: [/usr/sbin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfnrvjZ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_71aa8 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_71aa8.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o] ==> linker architecture flags [-m;elf]
-        ignore line: [/usr/sbin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfnrvjZ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_71aa8 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_71aa8.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o]
+        link line: [/usr/sbin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/cc9cZ0L9.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_23816 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_23816.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o] ==> linker [/usr/sbin/ld]
+        link line: [/usr/sbin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/cc9cZ0L9.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_23816 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_23816.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o] ==> linker architecture flags [-m;elf]
+        ignore line: [/usr/sbin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/cc9cZ0L9.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_23816 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_23816.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o]
         linker tool for 'CXX': /usr/sbin/ld -m;elf
         collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o] ==> [/usr/lib/Scrt1.o]
         collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o] ==> [/usr/lib/crti.o]
@@ -1252,9 +1384,47 @@ events:
       Running the CXX compiler's linker: "/usr/sbin/ld" "-v"
       GNU ld (GNU Binutils) 2.47
   -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:81 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/FindThreads.cmake:162 (check_cxx_source_compiles)"
+      - "/usr/share/cmake/Modules/FindThreads.cmake:226 (_threads_check_libc)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/usr/lib/cmake/glfw3/glfw3Config.cmake:2 (find_dependency)"
+      - "CMakeLists.txt:40 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/ale/Programming/3d-test/build/CMakeFiles/CMakeScratch/TryCompile-yKwlv8"
+      binary: "/home/ale/Programming/3d-test/build/CMakeFiles/CMakeScratch/TryCompile-yKwlv8"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ale/Programming/3d-test/build/CMakeFiles/CMakeScratch/TryCompile-yKwlv8'
+        
+        Run Build Command(s): /usr/sbin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_477fc/fast
+        /usr/sbin/make  -f CMakeFiles/cmTC_477fc.dir/build.make CMakeFiles/cmTC_477fc.dir/build
+        make[1]: Entering directory '/home/ale/Programming/3d-test/build/CMakeFiles/CMakeScratch/TryCompile-yKwlv8'
+        Building CXX object CMakeFiles/cmTC_477fc.dir/src.cxx.o
+        /usr/sbin/c++ -DCMAKE_HAVE_LIBC_PTHREAD  -std=c++17 -o CMakeFiles/cmTC_477fc.dir/src.cxx.o -c /home/ale/Programming/3d-test/build/CMakeFiles/CMakeScratch/TryCompile-yKwlv8/src.cxx
+        Linking CXX executable cmTC_477fc
+        /usr/sbin/cmake -E cmake_link_script CMakeFiles/cmTC_477fc.dir/link.txt --verbose=1
+        /usr/sbin/c++ CMakeFiles/cmTC_477fc.dir/src.cxx.o -o cmTC_477fc
+        make[1]: Leaving directory '/home/ale/Programming/3d-test/build/CMakeFiles/CMakeScratch/TryCompile-yKwlv8'
+        
+      exitCode: 0
+  -
     kind: "find_package-v1"
     backtrace:
-      - "CMakeLists.txt:21 (find_package)"
+      - "CMakeLists.txt:40 (find_package)"
     name: "glfw3"
     configs:
       -
@@ -1292,19 +1462,19 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/home/ale/Programming/renderer/build/CMakeFiles/pkgRedirects/glfw3Config.cmake"
+        path: "/home/ale/Programming/3d-test/build/CMakeFiles/pkgRedirects/glfw3Config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/ale/Programming/renderer/build/CMakeFiles/pkgRedirects/glfw3-config.cmake"
+        path: "/home/ale/Programming/3d-test/build/CMakeFiles/pkgRedirects/glfw3-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/ale/Programming/renderer/build/CMakeFiles/pkgRedirects/lib/cps/glfw3.cps"
+        path: "/home/ale/Programming/3d-test/build/CMakeFiles/pkgRedirects/lib/cps/glfw3.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/ale/Programming/renderer/build/CMakeFiles/pkgRedirects/share/cps/glfw3.cps"
+        path: "/home/ale/Programming/3d-test/build/CMakeFiles/pkgRedirects/share/cps/glfw3.cps"
         mode: "cps"
         reason: "no_exist"
       -
@@ -1321,6 +1491,38 @@ events:
         reason: "no_exist"
       -
         path: "/home/ale/.local/share/nvim/mason/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/ale/Programming/over-language/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/ale/Programming/over-language/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/ale/Programming/over-language/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/ale/Programming/over-language/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/ale/dev/osxcross/target/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/ale/dev/osxcross/target/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/ale/dev/osxcross/target/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/ale/dev/osxcross/target/share/cps/glfw3.cps"
         mode: "cps"
         reason: "no_exist"
       -
@@ -1387,106 +1589,15 @@ events:
         path: "/usr/share/cps/glfw3.cps"
         mode: "cps"
         reason: "no_exist"
-      -
-        path: "/glfw3Config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/glfw3-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/lib/cps/glfw3.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/share/cps/glfw3.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/usr/lib/jvm/default/glfw3Config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/usr/lib/jvm/default/glfw3-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/usr/lib/jvm/default/lib/cps/glfw3.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/usr/lib/jvm/default/share/cps/glfw3.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/usr/bin/site_perl/glfw3Config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/usr/bin/site_perl/glfw3-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/usr/bin/site_perl/lib/cps/glfw3.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/usr/bin/site_perl/share/cps/glfw3.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/usr/bin/vendor_perl/glfw3Config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/usr/bin/vendor_perl/glfw3-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/usr/bin/vendor_perl/lib/cps/glfw3.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/usr/bin/vendor_perl/share/cps/glfw3.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/usr/bin/core_perl/glfw3Config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/usr/bin/core_perl/glfw3-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/usr/bin/core_perl/lib/cps/glfw3.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/usr/bin/core_perl/share/cps/glfw3.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/opt/glfw3Config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/opt/glfw3-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/opt/lib/cps/glfw3.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/opt/share/cps/glfw3.cps"
-        mode: "cps"
-        reason: "no_exist"
-    found: null
+    found:
+      path: "/usr/lib/cmake/glfw3/glfw3Config.cmake"
+      mode: "config"
+      version: "3.5.1"
     search_context:
       ENV{PATH}:
         - "/home/ale/.local/share/nvim/mason/bin"
+        - "/home/ale/Programming/over-language/bin"
+        - "/home/ale/dev/osxcross/target/bin"
         - "/home/ale/.cargo/bin"
         - "/home/ale/.local/bin"
         - "/usr/local/sbin"
@@ -1495,6 +1606,7 @@ events:
         - "/usr/bin"
         - "/sbin"
         - "/bin"
+        - "/var/lib/flatpak/exports/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
@@ -1509,53 +1621,11 @@ events:
         - "/usr/X11R6"
         - "/usr/pkg"
         - "/opt"
-...
-
----
-events:
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:81 (try_compile)"
-      - "/usr/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
-      - "/usr/share/cmake/Modules/FindThreads.cmake:162 (check_cxx_source_compiles)"
-      - "/usr/share/cmake/Modules/FindThreads.cmake:226 (_threads_check_libc)"
-      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
-      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
-      - "/usr/lib/cmake/glfw3/glfw3Config.cmake:2 (find_dependency)"
-      - "CMakeLists.txt:21 (find_package)"
-    checks:
-      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
-    directories:
-      source: "/home/ale/Programming/renderer/build/CMakeFiles/CMakeScratch/TryCompile-BvWgvR"
-      binary: "/home/ale/Programming/renderer/build/CMakeFiles/CMakeScratch/TryCompile-BvWgvR"
-    cmakeVariables:
-      CMAKE_CXX_FLAGS: ""
-      CMAKE_CXX_FLAGS_DEBUG: "-g"
-      CMAKE_CXX_STDLIB_MODULES_JSON: ""
-      CMAKE_EXE_LINKER_FLAGS: ""
-    buildResult:
-      variable: "CMAKE_HAVE_LIBC_PTHREAD"
-      cached: true
-      stdout: |
-        Change Dir: '/home/ale/Programming/renderer/build/CMakeFiles/CMakeScratch/TryCompile-BvWgvR'
-        
-        Run Build Command(s): /usr/sbin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_87240/fast
-        /usr/sbin/make  -f CMakeFiles/cmTC_87240.dir/build.make CMakeFiles/cmTC_87240.dir/build
-        make[1]: Entering directory '/home/ale/Programming/renderer/build/CMakeFiles/CMakeScratch/TryCompile-BvWgvR'
-        Building CXX object CMakeFiles/cmTC_87240.dir/src.cxx.o
-        /usr/sbin/c++ -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_87240.dir/src.cxx.o -c /home/ale/Programming/renderer/build/CMakeFiles/CMakeScratch/TryCompile-BvWgvR/src.cxx
-        Linking CXX executable cmTC_87240
-        /usr/sbin/cmake -E cmake_link_script CMakeFiles/cmTC_87240.dir/link.txt --verbose=1
-        /usr/sbin/c++ CMakeFiles/cmTC_87240.dir/src.cxx.o -o cmTC_87240
-        make[1]: Leaving directory '/home/ale/Programming/renderer/build/CMakeFiles/CMakeScratch/TryCompile-BvWgvR'
-        
-      exitCode: 0
   -
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindOpenGL.cmake:408 (find_path)"
-      - "CMakeLists.txt:22 (find_package)"
+      - "CMakeLists.txt:41 (find_package)"
     mode: "path"
     variable: "OPENGL_INCLUDE_DIR"
     description: "Path to a file."
@@ -1571,6 +1641,8 @@ events:
       - "GL/gl.h"
     candidate_directories:
       - "/home/ale/.local/share/nvim/mason/bin/"
+      - "/home/ale/Programming/over-language/bin/"
+      - "/home/ale/dev/osxcross/target/bin/"
       - "/home/ale/.cargo/bin/"
       - "/home/ale/.local/bin/"
       - "/usr/local/sbin/"
@@ -1579,6 +1651,7 @@ events:
       - "/usr/bin/"
       - "/sbin/"
       - "/bin/"
+      - "/var/lib/flatpak/exports/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
@@ -1600,6 +1673,8 @@ events:
       - "/opt/graphics/OpenGL/include/"
     searched_directories:
       - "/home/ale/.local/share/nvim/mason/bin/GL/gl.h"
+      - "/home/ale/Programming/over-language/bin/GL/gl.h"
+      - "/home/ale/dev/osxcross/target/bin/GL/gl.h"
       - "/home/ale/.cargo/bin/GL/gl.h"
       - "/home/ale/.local/bin/GL/gl.h"
       - "/usr/local/sbin/GL/gl.h"
@@ -1608,6 +1683,7 @@ events:
       - "/usr/bin/GL/gl.h"
       - "/sbin/GL/gl.h"
       - "/bin/GL/gl.h"
+      - "/var/lib/flatpak/exports/bin/GL/gl.h"
       - "/usr/lib/jvm/default/bin/GL/gl.h"
       - "/usr/bin/site_perl/GL/gl.h"
       - "/usr/bin/vendor_perl/GL/gl.h"
@@ -1618,6 +1694,8 @@ events:
     search_context:
       ENV{PATH}:
         - "/home/ale/.local/share/nvim/mason/bin"
+        - "/home/ale/Programming/over-language/bin"
+        - "/home/ale/dev/osxcross/target/bin"
         - "/home/ale/.cargo/bin"
         - "/home/ale/.local/bin"
         - "/usr/local/sbin"
@@ -1626,6 +1704,7 @@ events:
         - "/usr/bin"
         - "/sbin"
         - "/bin"
+        - "/var/lib/flatpak/exports/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
@@ -1646,7 +1725,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindOpenGL.cmake:414 (find_path)"
-      - "CMakeLists.txt:22 (find_package)"
+      - "CMakeLists.txt:41 (find_package)"
     mode: "path"
     variable: "OPENGL_GLX_INCLUDE_DIR"
     description: "Path to a file."
@@ -1662,6 +1741,8 @@ events:
       - "GL/glx.h"
     candidate_directories:
       - "/home/ale/.local/share/nvim/mason/bin/"
+      - "/home/ale/Programming/over-language/bin/"
+      - "/home/ale/dev/osxcross/target/bin/"
       - "/home/ale/.cargo/bin/"
       - "/home/ale/.local/bin/"
       - "/usr/local/sbin/"
@@ -1670,6 +1751,7 @@ events:
       - "/usr/bin/"
       - "/sbin/"
       - "/bin/"
+      - "/var/lib/flatpak/exports/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
@@ -1688,6 +1770,8 @@ events:
       - "/usr/include/X11/"
     searched_directories:
       - "/home/ale/.local/share/nvim/mason/bin/GL/glx.h"
+      - "/home/ale/Programming/over-language/bin/GL/glx.h"
+      - "/home/ale/dev/osxcross/target/bin/GL/glx.h"
       - "/home/ale/.cargo/bin/GL/glx.h"
       - "/home/ale/.local/bin/GL/glx.h"
       - "/usr/local/sbin/GL/glx.h"
@@ -1696,6 +1780,7 @@ events:
       - "/usr/bin/GL/glx.h"
       - "/sbin/GL/glx.h"
       - "/bin/GL/glx.h"
+      - "/var/lib/flatpak/exports/bin/GL/glx.h"
       - "/usr/lib/jvm/default/bin/GL/glx.h"
       - "/usr/bin/site_perl/GL/glx.h"
       - "/usr/bin/vendor_perl/GL/glx.h"
@@ -1706,6 +1791,8 @@ events:
     search_context:
       ENV{PATH}:
         - "/home/ale/.local/share/nvim/mason/bin"
+        - "/home/ale/Programming/over-language/bin"
+        - "/home/ale/dev/osxcross/target/bin"
         - "/home/ale/.cargo/bin"
         - "/home/ale/.local/bin"
         - "/usr/local/sbin"
@@ -1714,6 +1801,7 @@ events:
         - "/usr/bin"
         - "/sbin"
         - "/bin"
+        - "/var/lib/flatpak/exports/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
@@ -1734,7 +1822,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindOpenGL.cmake:415 (find_path)"
-      - "CMakeLists.txt:22 (find_package)"
+      - "CMakeLists.txt:41 (find_package)"
     mode: "path"
     variable: "OPENGL_EGL_INCLUDE_DIR"
     description: "Path to a file."
@@ -1750,6 +1838,8 @@ events:
       - "EGL/egl.h"
     candidate_directories:
       - "/home/ale/.local/share/nvim/mason/bin/"
+      - "/home/ale/Programming/over-language/bin/"
+      - "/home/ale/dev/osxcross/target/bin/"
       - "/home/ale/.cargo/bin/"
       - "/home/ale/.local/bin/"
       - "/usr/local/sbin/"
@@ -1758,6 +1848,7 @@ events:
       - "/usr/bin/"
       - "/sbin/"
       - "/bin/"
+      - "/var/lib/flatpak/exports/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
@@ -1776,6 +1867,8 @@ events:
       - "/usr/include/X11/"
     searched_directories:
       - "/home/ale/.local/share/nvim/mason/bin/EGL/egl.h"
+      - "/home/ale/Programming/over-language/bin/EGL/egl.h"
+      - "/home/ale/dev/osxcross/target/bin/EGL/egl.h"
       - "/home/ale/.cargo/bin/EGL/egl.h"
       - "/home/ale/.local/bin/EGL/egl.h"
       - "/usr/local/sbin/EGL/egl.h"
@@ -1784,6 +1877,7 @@ events:
       - "/usr/bin/EGL/egl.h"
       - "/sbin/EGL/egl.h"
       - "/bin/EGL/egl.h"
+      - "/var/lib/flatpak/exports/bin/EGL/egl.h"
       - "/usr/lib/jvm/default/bin/EGL/egl.h"
       - "/usr/bin/site_perl/EGL/egl.h"
       - "/usr/bin/vendor_perl/EGL/egl.h"
@@ -1794,6 +1888,8 @@ events:
     search_context:
       ENV{PATH}:
         - "/home/ale/.local/share/nvim/mason/bin"
+        - "/home/ale/Programming/over-language/bin"
+        - "/home/ale/dev/osxcross/target/bin"
         - "/home/ale/.cargo/bin"
         - "/home/ale/.local/bin"
         - "/usr/local/sbin"
@@ -1802,6 +1898,7 @@ events:
         - "/usr/bin"
         - "/sbin"
         - "/bin"
+        - "/var/lib/flatpak/exports/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
@@ -1822,7 +1919,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindOpenGL.cmake:416 (find_path)"
-      - "CMakeLists.txt:22 (find_package)"
+      - "CMakeLists.txt:41 (find_package)"
     mode: "path"
     variable: "OPENGL_GLES2_INCLUDE_DIR"
     description: "Path to a file."
@@ -1838,6 +1935,8 @@ events:
       - "GLES2/gl2.h"
     candidate_directories:
       - "/home/ale/.local/share/nvim/mason/bin/"
+      - "/home/ale/Programming/over-language/bin/"
+      - "/home/ale/dev/osxcross/target/bin/"
       - "/home/ale/.cargo/bin/"
       - "/home/ale/.local/bin/"
       - "/usr/local/sbin/"
@@ -1846,6 +1945,7 @@ events:
       - "/usr/bin/"
       - "/sbin/"
       - "/bin/"
+      - "/var/lib/flatpak/exports/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
@@ -1864,6 +1964,8 @@ events:
       - "/usr/include/X11/"
     searched_directories:
       - "/home/ale/.local/share/nvim/mason/bin/GLES2/gl2.h"
+      - "/home/ale/Programming/over-language/bin/GLES2/gl2.h"
+      - "/home/ale/dev/osxcross/target/bin/GLES2/gl2.h"
       - "/home/ale/.cargo/bin/GLES2/gl2.h"
       - "/home/ale/.local/bin/GLES2/gl2.h"
       - "/usr/local/sbin/GLES2/gl2.h"
@@ -1872,6 +1974,7 @@ events:
       - "/usr/bin/GLES2/gl2.h"
       - "/sbin/GLES2/gl2.h"
       - "/bin/GLES2/gl2.h"
+      - "/var/lib/flatpak/exports/bin/GLES2/gl2.h"
       - "/usr/lib/jvm/default/bin/GLES2/gl2.h"
       - "/usr/bin/site_perl/GLES2/gl2.h"
       - "/usr/bin/vendor_perl/GLES2/gl2.h"
@@ -1882,6 +1985,8 @@ events:
     search_context:
       ENV{PATH}:
         - "/home/ale/.local/share/nvim/mason/bin"
+        - "/home/ale/Programming/over-language/bin"
+        - "/home/ale/dev/osxcross/target/bin"
         - "/home/ale/.cargo/bin"
         - "/home/ale/.local/bin"
         - "/usr/local/sbin"
@@ -1890,6 +1995,7 @@ events:
         - "/usr/bin"
         - "/sbin"
         - "/bin"
+        - "/var/lib/flatpak/exports/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
@@ -1910,7 +2016,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindOpenGL.cmake:417 (find_path)"
-      - "CMakeLists.txt:22 (find_package)"
+      - "CMakeLists.txt:41 (find_package)"
     mode: "path"
     variable: "OPENGL_GLES3_INCLUDE_DIR"
     description: "Path to a file."
@@ -1926,6 +2032,8 @@ events:
       - "GLES3/gl3.h"
     candidate_directories:
       - "/home/ale/.local/share/nvim/mason/bin/"
+      - "/home/ale/Programming/over-language/bin/"
+      - "/home/ale/dev/osxcross/target/bin/"
       - "/home/ale/.cargo/bin/"
       - "/home/ale/.local/bin/"
       - "/usr/local/sbin/"
@@ -1934,6 +2042,7 @@ events:
       - "/usr/bin/"
       - "/sbin/"
       - "/bin/"
+      - "/var/lib/flatpak/exports/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
@@ -1952,6 +2061,8 @@ events:
       - "/usr/include/X11/"
     searched_directories:
       - "/home/ale/.local/share/nvim/mason/bin/GLES3/gl3.h"
+      - "/home/ale/Programming/over-language/bin/GLES3/gl3.h"
+      - "/home/ale/dev/osxcross/target/bin/GLES3/gl3.h"
       - "/home/ale/.cargo/bin/GLES3/gl3.h"
       - "/home/ale/.local/bin/GLES3/gl3.h"
       - "/usr/local/sbin/GLES3/gl3.h"
@@ -1960,6 +2071,7 @@ events:
       - "/usr/bin/GLES3/gl3.h"
       - "/sbin/GLES3/gl3.h"
       - "/bin/GLES3/gl3.h"
+      - "/var/lib/flatpak/exports/bin/GLES3/gl3.h"
       - "/usr/lib/jvm/default/bin/GLES3/gl3.h"
       - "/usr/bin/site_perl/GLES3/gl3.h"
       - "/usr/bin/vendor_perl/GLES3/gl3.h"
@@ -1970,6 +2082,8 @@ events:
     search_context:
       ENV{PATH}:
         - "/home/ale/.local/share/nvim/mason/bin"
+        - "/home/ale/Programming/over-language/bin"
+        - "/home/ale/dev/osxcross/target/bin"
         - "/home/ale/.cargo/bin"
         - "/home/ale/.local/bin"
         - "/usr/local/sbin"
@@ -1978,6 +2092,7 @@ events:
         - "/usr/bin"
         - "/sbin"
         - "/bin"
+        - "/var/lib/flatpak/exports/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
@@ -1998,7 +2113,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindOpenGL.cmake:418 (find_path)"
-      - "CMakeLists.txt:22 (find_package)"
+      - "CMakeLists.txt:41 (find_package)"
     mode: "path"
     variable: "OPENGL_xmesa_INCLUDE_DIR"
     description: "Path to a file."
@@ -2014,6 +2129,8 @@ events:
       - "GL/xmesa.h"
     candidate_directories:
       - "/home/ale/.local/share/nvim/mason/bin/"
+      - "/home/ale/Programming/over-language/bin/"
+      - "/home/ale/dev/osxcross/target/bin/"
       - "/home/ale/.cargo/bin/"
       - "/home/ale/.local/bin/"
       - "/usr/local/sbin/"
@@ -2022,6 +2139,7 @@ events:
       - "/usr/bin/"
       - "/sbin/"
       - "/bin/"
+      - "/var/lib/flatpak/exports/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
@@ -2043,6 +2161,8 @@ events:
       - "/opt/graphics/OpenGL/include/"
     searched_directories:
       - "/home/ale/.local/share/nvim/mason/bin/GL/xmesa.h"
+      - "/home/ale/Programming/over-language/bin/GL/xmesa.h"
+      - "/home/ale/dev/osxcross/target/bin/GL/xmesa.h"
       - "/home/ale/.cargo/bin/GL/xmesa.h"
       - "/home/ale/.local/bin/GL/xmesa.h"
       - "/usr/local/sbin/GL/xmesa.h"
@@ -2051,6 +2171,7 @@ events:
       - "/usr/bin/GL/xmesa.h"
       - "/sbin/GL/xmesa.h"
       - "/bin/GL/xmesa.h"
+      - "/var/lib/flatpak/exports/bin/GL/xmesa.h"
       - "/usr/lib/jvm/default/bin/GL/xmesa.h"
       - "/usr/bin/site_perl/GL/xmesa.h"
       - "/usr/bin/vendor_perl/GL/xmesa.h"
@@ -2074,6 +2195,8 @@ events:
     search_context:
       ENV{PATH}:
         - "/home/ale/.local/share/nvim/mason/bin"
+        - "/home/ale/Programming/over-language/bin"
+        - "/home/ale/dev/osxcross/target/bin"
         - "/home/ale/.cargo/bin"
         - "/home/ale/.local/bin"
         - "/usr/local/sbin"
@@ -2082,6 +2205,7 @@ events:
         - "/usr/bin"
         - "/sbin"
         - "/bin"
+        - "/var/lib/flatpak/exports/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
@@ -2102,7 +2226,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindOpenGL.cmake:424 (find_path)"
-      - "CMakeLists.txt:22 (find_package)"
+      - "CMakeLists.txt:41 (find_package)"
     mode: "path"
     variable: "OPENGL_GLU_INCLUDE_DIR"
     description: "Path to a file."
@@ -2118,6 +2242,8 @@ events:
       - "GL/glu.h"
     candidate_directories:
       - "/home/ale/.local/share/nvim/mason/bin/"
+      - "/home/ale/Programming/over-language/bin/"
+      - "/home/ale/dev/osxcross/target/bin/"
       - "/home/ale/.cargo/bin/"
       - "/home/ale/.local/bin/"
       - "/usr/local/sbin/"
@@ -2126,6 +2252,7 @@ events:
       - "/usr/bin/"
       - "/sbin/"
       - "/bin/"
+      - "/var/lib/flatpak/exports/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
@@ -2144,6 +2271,8 @@ events:
       - "/usr/include/X11/"
     searched_directories:
       - "/home/ale/.local/share/nvim/mason/bin/GL/glu.h"
+      - "/home/ale/Programming/over-language/bin/GL/glu.h"
+      - "/home/ale/dev/osxcross/target/bin/GL/glu.h"
       - "/home/ale/.cargo/bin/GL/glu.h"
       - "/home/ale/.local/bin/GL/glu.h"
       - "/usr/local/sbin/GL/glu.h"
@@ -2152,6 +2281,7 @@ events:
       - "/usr/bin/GL/glu.h"
       - "/sbin/GL/glu.h"
       - "/bin/GL/glu.h"
+      - "/var/lib/flatpak/exports/bin/GL/glu.h"
       - "/usr/lib/jvm/default/bin/GL/glu.h"
       - "/usr/bin/site_perl/GL/glu.h"
       - "/usr/bin/vendor_perl/GL/glu.h"
@@ -2162,6 +2292,8 @@ events:
     search_context:
       ENV{PATH}:
         - "/home/ale/.local/share/nvim/mason/bin"
+        - "/home/ale/Programming/over-language/bin"
+        - "/home/ale/dev/osxcross/target/bin"
         - "/home/ale/.cargo/bin"
         - "/home/ale/.local/bin"
         - "/usr/local/sbin"
@@ -2170,6 +2302,7 @@ events:
         - "/usr/bin"
         - "/sbin"
         - "/bin"
+        - "/var/lib/flatpak/exports/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
@@ -2190,7 +2323,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindOpenGL.cmake:438 (find_library)"
-      - "CMakeLists.txt:22 (find_package)"
+      - "CMakeLists.txt:41 (find_package)"
     mode: "library"
     variable: "OPENGL_opengl_LIBRARY"
     description: "Path to a library."
@@ -2206,6 +2339,8 @@ events:
       - "OpenGL"
     candidate_directories:
       - "/home/ale/.local/share/nvim/mason/bin/"
+      - "/home/ale/Programming/over-language/bin/"
+      - "/home/ale/dev/osxcross/target/bin/"
       - "/home/ale/.cargo/bin/"
       - "/home/ale/.local/bin/"
       - "/usr/local/sbin/"
@@ -2214,6 +2349,7 @@ events:
       - "/usr/bin/"
       - "/sbin/"
       - "/bin/"
+      - "/var/lib/flatpak/exports/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
@@ -2232,6 +2368,8 @@ events:
       - "/usr/lib/X11/"
     searched_directories:
       - "/home/ale/.local/share/nvim/mason/bin/"
+      - "/home/ale/Programming/over-language/bin/"
+      - "/home/ale/dev/osxcross/target/bin/"
       - "/home/ale/.cargo/bin/"
       - "/home/ale/.local/bin/"
       - "/usr/local/sbin/"
@@ -2240,6 +2378,7 @@ events:
       - "/usr/bin/"
       - "/sbin/"
       - "/bin/"
+      - "/var/lib/flatpak/exports/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
@@ -2250,6 +2389,8 @@ events:
     search_context:
       ENV{PATH}:
         - "/home/ale/.local/share/nvim/mason/bin"
+        - "/home/ale/Programming/over-language/bin"
+        - "/home/ale/dev/osxcross/target/bin"
         - "/home/ale/.cargo/bin"
         - "/home/ale/.local/bin"
         - "/usr/local/sbin"
@@ -2258,6 +2399,7 @@ events:
         - "/usr/bin"
         - "/sbin"
         - "/bin"
+        - "/var/lib/flatpak/exports/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
@@ -2278,7 +2420,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindOpenGL.cmake:443 (find_library)"
-      - "CMakeLists.txt:22 (find_package)"
+      - "CMakeLists.txt:41 (find_package)"
     mode: "library"
     variable: "OPENGL_glx_LIBRARY"
     description: "Path to a library."
@@ -2295,6 +2437,10 @@ events:
     candidate_directories:
       - "/home/ale/.local/share/nvim/mason/bin/libglvnd/"
       - "/home/ale/.local/share/nvim/mason/bin/"
+      - "/home/ale/Programming/over-language/bin/libglvnd/"
+      - "/home/ale/Programming/over-language/bin/"
+      - "/home/ale/dev/osxcross/target/bin/libglvnd/"
+      - "/home/ale/dev/osxcross/target/bin/"
       - "/home/ale/.cargo/bin/libglvnd/"
       - "/home/ale/.cargo/bin/"
       - "/home/ale/.local/bin/libglvnd/"
@@ -2311,6 +2457,8 @@ events:
       - "/sbin/"
       - "/bin/libglvnd/"
       - "/bin/"
+      - "/var/lib/flatpak/exports/bin/libglvnd/"
+      - "/var/lib/flatpak/exports/bin/"
       - "/usr/lib/jvm/default/bin/libglvnd/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/libglvnd/"
@@ -2346,6 +2494,10 @@ events:
     searched_directories:
       - "/home/ale/.local/share/nvim/mason/bin/libglvnd/"
       - "/home/ale/.local/share/nvim/mason/bin/"
+      - "/home/ale/Programming/over-language/bin/libglvnd/"
+      - "/home/ale/Programming/over-language/bin/"
+      - "/home/ale/dev/osxcross/target/bin/libglvnd/"
+      - "/home/ale/dev/osxcross/target/bin/"
       - "/home/ale/.cargo/bin/libglvnd/"
       - "/home/ale/.cargo/bin/"
       - "/home/ale/.local/bin/libglvnd/"
@@ -2362,6 +2514,8 @@ events:
       - "/sbin/"
       - "/bin/libglvnd/"
       - "/bin/"
+      - "/var/lib/flatpak/exports/bin/libglvnd/"
+      - "/var/lib/flatpak/exports/bin/"
       - "/usr/lib/jvm/default/bin/libglvnd/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/libglvnd/"
@@ -2379,6 +2533,8 @@ events:
     search_context:
       ENV{PATH}:
         - "/home/ale/.local/share/nvim/mason/bin"
+        - "/home/ale/Programming/over-language/bin"
+        - "/home/ale/dev/osxcross/target/bin"
         - "/home/ale/.cargo/bin"
         - "/home/ale/.local/bin"
         - "/usr/local/sbin"
@@ -2387,6 +2543,7 @@ events:
         - "/usr/bin"
         - "/sbin"
         - "/bin"
+        - "/var/lib/flatpak/exports/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
@@ -2407,7 +2564,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindOpenGL.cmake:449 (find_library)"
-      - "CMakeLists.txt:22 (find_package)"
+      - "CMakeLists.txt:41 (find_package)"
     mode: "library"
     variable: "OPENGL_egl_LIBRARY"
     description: "Path to a library."
@@ -2424,6 +2581,10 @@ events:
     candidate_directories:
       - "/home/ale/.local/share/nvim/mason/bin/libglvnd/"
       - "/home/ale/.local/share/nvim/mason/bin/"
+      - "/home/ale/Programming/over-language/bin/libglvnd/"
+      - "/home/ale/Programming/over-language/bin/"
+      - "/home/ale/dev/osxcross/target/bin/libglvnd/"
+      - "/home/ale/dev/osxcross/target/bin/"
       - "/home/ale/.cargo/bin/libglvnd/"
       - "/home/ale/.cargo/bin/"
       - "/home/ale/.local/bin/libglvnd/"
@@ -2440,6 +2601,8 @@ events:
       - "/sbin/"
       - "/bin/libglvnd/"
       - "/bin/"
+      - "/var/lib/flatpak/exports/bin/libglvnd/"
+      - "/var/lib/flatpak/exports/bin/"
       - "/usr/lib/jvm/default/bin/libglvnd/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/libglvnd/"
@@ -2475,6 +2638,10 @@ events:
     searched_directories:
       - "/home/ale/.local/share/nvim/mason/bin/libglvnd/"
       - "/home/ale/.local/share/nvim/mason/bin/"
+      - "/home/ale/Programming/over-language/bin/libglvnd/"
+      - "/home/ale/Programming/over-language/bin/"
+      - "/home/ale/dev/osxcross/target/bin/libglvnd/"
+      - "/home/ale/dev/osxcross/target/bin/"
       - "/home/ale/.cargo/bin/libglvnd/"
       - "/home/ale/.cargo/bin/"
       - "/home/ale/.local/bin/libglvnd/"
@@ -2491,6 +2658,8 @@ events:
       - "/sbin/"
       - "/bin/libglvnd/"
       - "/bin/"
+      - "/var/lib/flatpak/exports/bin/libglvnd/"
+      - "/var/lib/flatpak/exports/bin/"
       - "/usr/lib/jvm/default/bin/libglvnd/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/libglvnd/"
@@ -2508,6 +2677,8 @@ events:
     search_context:
       ENV{PATH}:
         - "/home/ale/.local/share/nvim/mason/bin"
+        - "/home/ale/Programming/over-language/bin"
+        - "/home/ale/dev/osxcross/target/bin"
         - "/home/ale/.cargo/bin"
         - "/home/ale/.local/bin"
         - "/usr/local/sbin"
@@ -2516,6 +2687,7 @@ events:
         - "/usr/bin"
         - "/sbin"
         - "/bin"
+        - "/var/lib/flatpak/exports/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
@@ -2536,7 +2708,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindOpenGL.cmake:455 (find_library)"
-      - "CMakeLists.txt:22 (find_package)"
+      - "CMakeLists.txt:41 (find_package)"
     mode: "library"
     variable: "OPENGL_gles2_LIBRARY"
     description: "Path to a library."
@@ -2552,6 +2724,8 @@ events:
       - "GLESv2"
     candidate_directories:
       - "/home/ale/.local/share/nvim/mason/bin/"
+      - "/home/ale/Programming/over-language/bin/"
+      - "/home/ale/dev/osxcross/target/bin/"
       - "/home/ale/.cargo/bin/"
       - "/home/ale/.local/bin/"
       - "/usr/local/sbin/"
@@ -2560,6 +2734,7 @@ events:
       - "/usr/bin/"
       - "/sbin/"
       - "/bin/"
+      - "/var/lib/flatpak/exports/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
@@ -2578,6 +2753,8 @@ events:
       - "/usr/lib/X11/"
     searched_directories:
       - "/home/ale/.local/share/nvim/mason/bin/"
+      - "/home/ale/Programming/over-language/bin/"
+      - "/home/ale/dev/osxcross/target/bin/"
       - "/home/ale/.cargo/bin/"
       - "/home/ale/.local/bin/"
       - "/usr/local/sbin/"
@@ -2586,6 +2763,7 @@ events:
       - "/usr/bin/"
       - "/sbin/"
       - "/bin/"
+      - "/var/lib/flatpak/exports/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
@@ -2596,6 +2774,8 @@ events:
     search_context:
       ENV{PATH}:
         - "/home/ale/.local/share/nvim/mason/bin"
+        - "/home/ale/Programming/over-language/bin"
+        - "/home/ale/dev/osxcross/target/bin"
         - "/home/ale/.cargo/bin"
         - "/home/ale/.local/bin"
         - "/usr/local/sbin"
@@ -2604,6 +2784,7 @@ events:
         - "/usr/bin"
         - "/sbin"
         - "/bin"
+        - "/var/lib/flatpak/exports/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
@@ -2624,7 +2805,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindOpenGL.cmake:460 (find_library)"
-      - "CMakeLists.txt:22 (find_package)"
+      - "CMakeLists.txt:41 (find_package)"
     mode: "library"
     variable: "OPENGL_gles3_LIBRARY"
     description: "Path to a library."
@@ -2641,6 +2822,8 @@ events:
       - "GLESv2"
     candidate_directories:
       - "/home/ale/.local/share/nvim/mason/bin/"
+      - "/home/ale/Programming/over-language/bin/"
+      - "/home/ale/dev/osxcross/target/bin/"
       - "/home/ale/.cargo/bin/"
       - "/home/ale/.local/bin/"
       - "/usr/local/sbin/"
@@ -2649,6 +2832,7 @@ events:
       - "/usr/bin/"
       - "/sbin/"
       - "/bin/"
+      - "/var/lib/flatpak/exports/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
@@ -2667,6 +2851,8 @@ events:
       - "/usr/lib/X11/"
     searched_directories:
       - "/home/ale/.local/share/nvim/mason/bin/"
+      - "/home/ale/Programming/over-language/bin/"
+      - "/home/ale/dev/osxcross/target/bin/"
       - "/home/ale/.cargo/bin/"
       - "/home/ale/.local/bin/"
       - "/usr/local/sbin/"
@@ -2675,6 +2861,7 @@ events:
       - "/usr/bin/"
       - "/sbin/"
       - "/bin/"
+      - "/var/lib/flatpak/exports/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
@@ -2692,6 +2879,8 @@ events:
       - "/opt/"
       - "/usr/lib/X11/"
       - "/home/ale/.local/share/nvim/mason/bin/"
+      - "/home/ale/Programming/over-language/bin/"
+      - "/home/ale/dev/osxcross/target/bin/"
       - "/home/ale/.cargo/bin/"
       - "/home/ale/.local/bin/"
       - "/usr/local/sbin/"
@@ -2700,6 +2889,7 @@ events:
       - "/usr/bin/"
       - "/sbin/"
       - "/bin/"
+      - "/var/lib/flatpak/exports/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
@@ -2710,6 +2900,8 @@ events:
     search_context:
       ENV{PATH}:
         - "/home/ale/.local/share/nvim/mason/bin"
+        - "/home/ale/Programming/over-language/bin"
+        - "/home/ale/dev/osxcross/target/bin"
         - "/home/ale/.cargo/bin"
         - "/home/ale/.local/bin"
         - "/usr/local/sbin"
@@ -2718,6 +2910,7 @@ events:
         - "/usr/bin"
         - "/sbin"
         - "/bin"
+        - "/var/lib/flatpak/exports/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
@@ -2738,7 +2931,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/usr/share/cmake/Modules/FindOpenGL.cmake:466 (find_library)"
-      - "CMakeLists.txt:22 (find_package)"
+      - "CMakeLists.txt:41 (find_package)"
     mode: "library"
     variable: "OPENGL_glu_LIBRARY"
     description: "Path to a library."
@@ -2755,6 +2948,8 @@ events:
       - "MesaGLU"
     candidate_directories:
       - "/home/ale/.local/share/nvim/mason/bin/"
+      - "/home/ale/Programming/over-language/bin/"
+      - "/home/ale/dev/osxcross/target/bin/"
       - "/home/ale/.cargo/bin/"
       - "/home/ale/.local/bin/"
       - "/usr/local/sbin/"
@@ -2763,6 +2958,7 @@ events:
       - "/usr/bin/"
       - "/sbin/"
       - "/bin/"
+      - "/var/lib/flatpak/exports/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
@@ -2784,6 +2980,8 @@ events:
       - "/usr/shlib/"
     searched_directories:
       - "/home/ale/.local/share/nvim/mason/bin/"
+      - "/home/ale/Programming/over-language/bin/"
+      - "/home/ale/dev/osxcross/target/bin/"
       - "/home/ale/.cargo/bin/"
       - "/home/ale/.local/bin/"
       - "/usr/local/sbin/"
@@ -2792,6 +2990,7 @@ events:
       - "/usr/bin/"
       - "/sbin/"
       - "/bin/"
+      - "/var/lib/flatpak/exports/bin/"
       - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
@@ -2802,6 +3001,8 @@ events:
     search_context:
       ENV{PATH}:
         - "/home/ale/.local/share/nvim/mason/bin"
+        - "/home/ale/Programming/over-language/bin"
+        - "/home/ale/dev/osxcross/target/bin"
         - "/home/ale/.cargo/bin"
         - "/home/ale/.local/bin"
         - "/usr/local/sbin"
@@ -2810,6 +3011,7 @@ events:
         - "/usr/bin"
         - "/sbin"
         - "/bin"
+        - "/var/lib/flatpak/exports/bin"
         - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"

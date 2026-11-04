@@ -53,10 +53,10 @@ RM = /usr/sbin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ale/Programming/renderer
+CMAKE_SOURCE_DIR = /home/ale/Programming/3d-test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ale/Programming/renderer/build
+CMAKE_BINARY_DIR = /home/ale/Programming/3d-test/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/3d-test.dir/depend.make
@@ -73,186 +73,186 @@ CMakeFiles/3d-test.dir/codegen:
 .PHONY : CMakeFiles/3d-test.dir/codegen
 
 CMakeFiles/3d-test.dir/src/main.cpp.o: CMakeFiles/3d-test.dir/flags.make
-CMakeFiles/3d-test.dir/src/main.cpp.o: /home/ale/Programming/renderer/src/main.cpp
+CMakeFiles/3d-test.dir/src/main.cpp.o: /home/ale/Programming/3d-test/src/main.cpp
 CMakeFiles/3d-test.dir/src/main.cpp.o: CMakeFiles/3d-test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ale/Programming/renderer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/3d-test.dir/src/main.cpp.o"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/3d-test.dir/src/main.cpp.o -MF CMakeFiles/3d-test.dir/src/main.cpp.o.d -o CMakeFiles/3d-test.dir/src/main.cpp.o -c /home/ale/Programming/renderer/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ale/Programming/3d-test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/3d-test.dir/src/main.cpp.o"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/3d-test.dir/src/main.cpp.o -MF CMakeFiles/3d-test.dir/src/main.cpp.o.d -o CMakeFiles/3d-test.dir/src/main.cpp.o -c /home/ale/Programming/3d-test/src/main.cpp
 
 CMakeFiles/3d-test.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/3d-test.dir/src/main.cpp.i"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ale/Programming/renderer/src/main.cpp > CMakeFiles/3d-test.dir/src/main.cpp.i
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ale/Programming/3d-test/src/main.cpp > CMakeFiles/3d-test.dir/src/main.cpp.i
 
 CMakeFiles/3d-test.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/3d-test.dir/src/main.cpp.s"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ale/Programming/renderer/src/main.cpp -o CMakeFiles/3d-test.dir/src/main.cpp.s
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ale/Programming/3d-test/src/main.cpp -o CMakeFiles/3d-test.dir/src/main.cpp.s
 
 CMakeFiles/3d-test.dir/src/mesh.cpp.o: CMakeFiles/3d-test.dir/flags.make
-CMakeFiles/3d-test.dir/src/mesh.cpp.o: /home/ale/Programming/renderer/src/mesh.cpp
+CMakeFiles/3d-test.dir/src/mesh.cpp.o: /home/ale/Programming/3d-test/src/mesh.cpp
 CMakeFiles/3d-test.dir/src/mesh.cpp.o: CMakeFiles/3d-test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ale/Programming/renderer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/3d-test.dir/src/mesh.cpp.o"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/3d-test.dir/src/mesh.cpp.o -MF CMakeFiles/3d-test.dir/src/mesh.cpp.o.d -o CMakeFiles/3d-test.dir/src/mesh.cpp.o -c /home/ale/Programming/renderer/src/mesh.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ale/Programming/3d-test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/3d-test.dir/src/mesh.cpp.o"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/3d-test.dir/src/mesh.cpp.o -MF CMakeFiles/3d-test.dir/src/mesh.cpp.o.d -o CMakeFiles/3d-test.dir/src/mesh.cpp.o -c /home/ale/Programming/3d-test/src/mesh.cpp
 
 CMakeFiles/3d-test.dir/src/mesh.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/3d-test.dir/src/mesh.cpp.i"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ale/Programming/renderer/src/mesh.cpp > CMakeFiles/3d-test.dir/src/mesh.cpp.i
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ale/Programming/3d-test/src/mesh.cpp > CMakeFiles/3d-test.dir/src/mesh.cpp.i
 
 CMakeFiles/3d-test.dir/src/mesh.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/3d-test.dir/src/mesh.cpp.s"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ale/Programming/renderer/src/mesh.cpp -o CMakeFiles/3d-test.dir/src/mesh.cpp.s
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ale/Programming/3d-test/src/mesh.cpp -o CMakeFiles/3d-test.dir/src/mesh.cpp.s
 
 CMakeFiles/3d-test.dir/src/primitives.cpp.o: CMakeFiles/3d-test.dir/flags.make
-CMakeFiles/3d-test.dir/src/primitives.cpp.o: /home/ale/Programming/renderer/src/primitives.cpp
+CMakeFiles/3d-test.dir/src/primitives.cpp.o: /home/ale/Programming/3d-test/src/primitives.cpp
 CMakeFiles/3d-test.dir/src/primitives.cpp.o: CMakeFiles/3d-test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ale/Programming/renderer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/3d-test.dir/src/primitives.cpp.o"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/3d-test.dir/src/primitives.cpp.o -MF CMakeFiles/3d-test.dir/src/primitives.cpp.o.d -o CMakeFiles/3d-test.dir/src/primitives.cpp.o -c /home/ale/Programming/renderer/src/primitives.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ale/Programming/3d-test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/3d-test.dir/src/primitives.cpp.o"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/3d-test.dir/src/primitives.cpp.o -MF CMakeFiles/3d-test.dir/src/primitives.cpp.o.d -o CMakeFiles/3d-test.dir/src/primitives.cpp.o -c /home/ale/Programming/3d-test/src/primitives.cpp
 
 CMakeFiles/3d-test.dir/src/primitives.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/3d-test.dir/src/primitives.cpp.i"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ale/Programming/renderer/src/primitives.cpp > CMakeFiles/3d-test.dir/src/primitives.cpp.i
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ale/Programming/3d-test/src/primitives.cpp > CMakeFiles/3d-test.dir/src/primitives.cpp.i
 
 CMakeFiles/3d-test.dir/src/primitives.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/3d-test.dir/src/primitives.cpp.s"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ale/Programming/renderer/src/primitives.cpp -o CMakeFiles/3d-test.dir/src/primitives.cpp.s
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ale/Programming/3d-test/src/primitives.cpp -o CMakeFiles/3d-test.dir/src/primitives.cpp.s
 
 CMakeFiles/3d-test.dir/src/lighting.cpp.o: CMakeFiles/3d-test.dir/flags.make
-CMakeFiles/3d-test.dir/src/lighting.cpp.o: /home/ale/Programming/renderer/src/lighting.cpp
+CMakeFiles/3d-test.dir/src/lighting.cpp.o: /home/ale/Programming/3d-test/src/lighting.cpp
 CMakeFiles/3d-test.dir/src/lighting.cpp.o: CMakeFiles/3d-test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ale/Programming/renderer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/3d-test.dir/src/lighting.cpp.o"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/3d-test.dir/src/lighting.cpp.o -MF CMakeFiles/3d-test.dir/src/lighting.cpp.o.d -o CMakeFiles/3d-test.dir/src/lighting.cpp.o -c /home/ale/Programming/renderer/src/lighting.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ale/Programming/3d-test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/3d-test.dir/src/lighting.cpp.o"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/3d-test.dir/src/lighting.cpp.o -MF CMakeFiles/3d-test.dir/src/lighting.cpp.o.d -o CMakeFiles/3d-test.dir/src/lighting.cpp.o -c /home/ale/Programming/3d-test/src/lighting.cpp
 
 CMakeFiles/3d-test.dir/src/lighting.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/3d-test.dir/src/lighting.cpp.i"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ale/Programming/renderer/src/lighting.cpp > CMakeFiles/3d-test.dir/src/lighting.cpp.i
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ale/Programming/3d-test/src/lighting.cpp > CMakeFiles/3d-test.dir/src/lighting.cpp.i
 
 CMakeFiles/3d-test.dir/src/lighting.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/3d-test.dir/src/lighting.cpp.s"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ale/Programming/renderer/src/lighting.cpp -o CMakeFiles/3d-test.dir/src/lighting.cpp.s
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ale/Programming/3d-test/src/lighting.cpp -o CMakeFiles/3d-test.dir/src/lighting.cpp.s
 
 CMakeFiles/3d-test.dir/src/renderer.cpp.o: CMakeFiles/3d-test.dir/flags.make
-CMakeFiles/3d-test.dir/src/renderer.cpp.o: /home/ale/Programming/renderer/src/renderer.cpp
+CMakeFiles/3d-test.dir/src/renderer.cpp.o: /home/ale/Programming/3d-test/src/renderer.cpp
 CMakeFiles/3d-test.dir/src/renderer.cpp.o: CMakeFiles/3d-test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ale/Programming/renderer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/3d-test.dir/src/renderer.cpp.o"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/3d-test.dir/src/renderer.cpp.o -MF CMakeFiles/3d-test.dir/src/renderer.cpp.o.d -o CMakeFiles/3d-test.dir/src/renderer.cpp.o -c /home/ale/Programming/renderer/src/renderer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ale/Programming/3d-test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/3d-test.dir/src/renderer.cpp.o"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/3d-test.dir/src/renderer.cpp.o -MF CMakeFiles/3d-test.dir/src/renderer.cpp.o.d -o CMakeFiles/3d-test.dir/src/renderer.cpp.o -c /home/ale/Programming/3d-test/src/renderer.cpp
 
 CMakeFiles/3d-test.dir/src/renderer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/3d-test.dir/src/renderer.cpp.i"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ale/Programming/renderer/src/renderer.cpp > CMakeFiles/3d-test.dir/src/renderer.cpp.i
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ale/Programming/3d-test/src/renderer.cpp > CMakeFiles/3d-test.dir/src/renderer.cpp.i
 
 CMakeFiles/3d-test.dir/src/renderer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/3d-test.dir/src/renderer.cpp.s"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ale/Programming/renderer/src/renderer.cpp -o CMakeFiles/3d-test.dir/src/renderer.cpp.s
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ale/Programming/3d-test/src/renderer.cpp -o CMakeFiles/3d-test.dir/src/renderer.cpp.s
 
 CMakeFiles/3d-test.dir/src/player.cpp.o: CMakeFiles/3d-test.dir/flags.make
-CMakeFiles/3d-test.dir/src/player.cpp.o: /home/ale/Programming/renderer/src/player.cpp
+CMakeFiles/3d-test.dir/src/player.cpp.o: /home/ale/Programming/3d-test/src/player.cpp
 CMakeFiles/3d-test.dir/src/player.cpp.o: CMakeFiles/3d-test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ale/Programming/renderer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/3d-test.dir/src/player.cpp.o"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/3d-test.dir/src/player.cpp.o -MF CMakeFiles/3d-test.dir/src/player.cpp.o.d -o CMakeFiles/3d-test.dir/src/player.cpp.o -c /home/ale/Programming/renderer/src/player.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ale/Programming/3d-test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/3d-test.dir/src/player.cpp.o"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/3d-test.dir/src/player.cpp.o -MF CMakeFiles/3d-test.dir/src/player.cpp.o.d -o CMakeFiles/3d-test.dir/src/player.cpp.o -c /home/ale/Programming/3d-test/src/player.cpp
 
 CMakeFiles/3d-test.dir/src/player.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/3d-test.dir/src/player.cpp.i"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ale/Programming/renderer/src/player.cpp > CMakeFiles/3d-test.dir/src/player.cpp.i
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ale/Programming/3d-test/src/player.cpp > CMakeFiles/3d-test.dir/src/player.cpp.i
 
 CMakeFiles/3d-test.dir/src/player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/3d-test.dir/src/player.cpp.s"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ale/Programming/renderer/src/player.cpp -o CMakeFiles/3d-test.dir/src/player.cpp.s
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ale/Programming/3d-test/src/player.cpp -o CMakeFiles/3d-test.dir/src/player.cpp.s
 
 CMakeFiles/3d-test.dir/external/imgui/imgui.cpp.o: CMakeFiles/3d-test.dir/flags.make
-CMakeFiles/3d-test.dir/external/imgui/imgui.cpp.o: /home/ale/Programming/renderer/external/imgui/imgui.cpp
+CMakeFiles/3d-test.dir/external/imgui/imgui.cpp.o: /home/ale/Programming/3d-test/external/imgui/imgui.cpp
 CMakeFiles/3d-test.dir/external/imgui/imgui.cpp.o: CMakeFiles/3d-test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ale/Programming/renderer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/3d-test.dir/external/imgui/imgui.cpp.o"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/3d-test.dir/external/imgui/imgui.cpp.o -MF CMakeFiles/3d-test.dir/external/imgui/imgui.cpp.o.d -o CMakeFiles/3d-test.dir/external/imgui/imgui.cpp.o -c /home/ale/Programming/renderer/external/imgui/imgui.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ale/Programming/3d-test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/3d-test.dir/external/imgui/imgui.cpp.o"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/3d-test.dir/external/imgui/imgui.cpp.o -MF CMakeFiles/3d-test.dir/external/imgui/imgui.cpp.o.d -o CMakeFiles/3d-test.dir/external/imgui/imgui.cpp.o -c /home/ale/Programming/3d-test/external/imgui/imgui.cpp
 
 CMakeFiles/3d-test.dir/external/imgui/imgui.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/3d-test.dir/external/imgui/imgui.cpp.i"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ale/Programming/renderer/external/imgui/imgui.cpp > CMakeFiles/3d-test.dir/external/imgui/imgui.cpp.i
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ale/Programming/3d-test/external/imgui/imgui.cpp > CMakeFiles/3d-test.dir/external/imgui/imgui.cpp.i
 
 CMakeFiles/3d-test.dir/external/imgui/imgui.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/3d-test.dir/external/imgui/imgui.cpp.s"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ale/Programming/renderer/external/imgui/imgui.cpp -o CMakeFiles/3d-test.dir/external/imgui/imgui.cpp.s
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ale/Programming/3d-test/external/imgui/imgui.cpp -o CMakeFiles/3d-test.dir/external/imgui/imgui.cpp.s
 
 CMakeFiles/3d-test.dir/external/imgui/imgui_demo.cpp.o: CMakeFiles/3d-test.dir/flags.make
-CMakeFiles/3d-test.dir/external/imgui/imgui_demo.cpp.o: /home/ale/Programming/renderer/external/imgui/imgui_demo.cpp
+CMakeFiles/3d-test.dir/external/imgui/imgui_demo.cpp.o: /home/ale/Programming/3d-test/external/imgui/imgui_demo.cpp
 CMakeFiles/3d-test.dir/external/imgui/imgui_demo.cpp.o: CMakeFiles/3d-test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ale/Programming/renderer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/3d-test.dir/external/imgui/imgui_demo.cpp.o"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/3d-test.dir/external/imgui/imgui_demo.cpp.o -MF CMakeFiles/3d-test.dir/external/imgui/imgui_demo.cpp.o.d -o CMakeFiles/3d-test.dir/external/imgui/imgui_demo.cpp.o -c /home/ale/Programming/renderer/external/imgui/imgui_demo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ale/Programming/3d-test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/3d-test.dir/external/imgui/imgui_demo.cpp.o"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/3d-test.dir/external/imgui/imgui_demo.cpp.o -MF CMakeFiles/3d-test.dir/external/imgui/imgui_demo.cpp.o.d -o CMakeFiles/3d-test.dir/external/imgui/imgui_demo.cpp.o -c /home/ale/Programming/3d-test/external/imgui/imgui_demo.cpp
 
 CMakeFiles/3d-test.dir/external/imgui/imgui_demo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/3d-test.dir/external/imgui/imgui_demo.cpp.i"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ale/Programming/renderer/external/imgui/imgui_demo.cpp > CMakeFiles/3d-test.dir/external/imgui/imgui_demo.cpp.i
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ale/Programming/3d-test/external/imgui/imgui_demo.cpp > CMakeFiles/3d-test.dir/external/imgui/imgui_demo.cpp.i
 
 CMakeFiles/3d-test.dir/external/imgui/imgui_demo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/3d-test.dir/external/imgui/imgui_demo.cpp.s"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ale/Programming/renderer/external/imgui/imgui_demo.cpp -o CMakeFiles/3d-test.dir/external/imgui/imgui_demo.cpp.s
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ale/Programming/3d-test/external/imgui/imgui_demo.cpp -o CMakeFiles/3d-test.dir/external/imgui/imgui_demo.cpp.s
 
 CMakeFiles/3d-test.dir/external/imgui/imgui_draw.cpp.o: CMakeFiles/3d-test.dir/flags.make
-CMakeFiles/3d-test.dir/external/imgui/imgui_draw.cpp.o: /home/ale/Programming/renderer/external/imgui/imgui_draw.cpp
+CMakeFiles/3d-test.dir/external/imgui/imgui_draw.cpp.o: /home/ale/Programming/3d-test/external/imgui/imgui_draw.cpp
 CMakeFiles/3d-test.dir/external/imgui/imgui_draw.cpp.o: CMakeFiles/3d-test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ale/Programming/renderer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/3d-test.dir/external/imgui/imgui_draw.cpp.o"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/3d-test.dir/external/imgui/imgui_draw.cpp.o -MF CMakeFiles/3d-test.dir/external/imgui/imgui_draw.cpp.o.d -o CMakeFiles/3d-test.dir/external/imgui/imgui_draw.cpp.o -c /home/ale/Programming/renderer/external/imgui/imgui_draw.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ale/Programming/3d-test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/3d-test.dir/external/imgui/imgui_draw.cpp.o"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/3d-test.dir/external/imgui/imgui_draw.cpp.o -MF CMakeFiles/3d-test.dir/external/imgui/imgui_draw.cpp.o.d -o CMakeFiles/3d-test.dir/external/imgui/imgui_draw.cpp.o -c /home/ale/Programming/3d-test/external/imgui/imgui_draw.cpp
 
 CMakeFiles/3d-test.dir/external/imgui/imgui_draw.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/3d-test.dir/external/imgui/imgui_draw.cpp.i"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ale/Programming/renderer/external/imgui/imgui_draw.cpp > CMakeFiles/3d-test.dir/external/imgui/imgui_draw.cpp.i
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ale/Programming/3d-test/external/imgui/imgui_draw.cpp > CMakeFiles/3d-test.dir/external/imgui/imgui_draw.cpp.i
 
 CMakeFiles/3d-test.dir/external/imgui/imgui_draw.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/3d-test.dir/external/imgui/imgui_draw.cpp.s"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ale/Programming/renderer/external/imgui/imgui_draw.cpp -o CMakeFiles/3d-test.dir/external/imgui/imgui_draw.cpp.s
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ale/Programming/3d-test/external/imgui/imgui_draw.cpp -o CMakeFiles/3d-test.dir/external/imgui/imgui_draw.cpp.s
 
 CMakeFiles/3d-test.dir/external/imgui/imgui_tables.cpp.o: CMakeFiles/3d-test.dir/flags.make
-CMakeFiles/3d-test.dir/external/imgui/imgui_tables.cpp.o: /home/ale/Programming/renderer/external/imgui/imgui_tables.cpp
+CMakeFiles/3d-test.dir/external/imgui/imgui_tables.cpp.o: /home/ale/Programming/3d-test/external/imgui/imgui_tables.cpp
 CMakeFiles/3d-test.dir/external/imgui/imgui_tables.cpp.o: CMakeFiles/3d-test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ale/Programming/renderer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/3d-test.dir/external/imgui/imgui_tables.cpp.o"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/3d-test.dir/external/imgui/imgui_tables.cpp.o -MF CMakeFiles/3d-test.dir/external/imgui/imgui_tables.cpp.o.d -o CMakeFiles/3d-test.dir/external/imgui/imgui_tables.cpp.o -c /home/ale/Programming/renderer/external/imgui/imgui_tables.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ale/Programming/3d-test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/3d-test.dir/external/imgui/imgui_tables.cpp.o"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/3d-test.dir/external/imgui/imgui_tables.cpp.o -MF CMakeFiles/3d-test.dir/external/imgui/imgui_tables.cpp.o.d -o CMakeFiles/3d-test.dir/external/imgui/imgui_tables.cpp.o -c /home/ale/Programming/3d-test/external/imgui/imgui_tables.cpp
 
 CMakeFiles/3d-test.dir/external/imgui/imgui_tables.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/3d-test.dir/external/imgui/imgui_tables.cpp.i"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ale/Programming/renderer/external/imgui/imgui_tables.cpp > CMakeFiles/3d-test.dir/external/imgui/imgui_tables.cpp.i
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ale/Programming/3d-test/external/imgui/imgui_tables.cpp > CMakeFiles/3d-test.dir/external/imgui/imgui_tables.cpp.i
 
 CMakeFiles/3d-test.dir/external/imgui/imgui_tables.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/3d-test.dir/external/imgui/imgui_tables.cpp.s"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ale/Programming/renderer/external/imgui/imgui_tables.cpp -o CMakeFiles/3d-test.dir/external/imgui/imgui_tables.cpp.s
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ale/Programming/3d-test/external/imgui/imgui_tables.cpp -o CMakeFiles/3d-test.dir/external/imgui/imgui_tables.cpp.s
 
 CMakeFiles/3d-test.dir/external/imgui/imgui_widgets.cpp.o: CMakeFiles/3d-test.dir/flags.make
-CMakeFiles/3d-test.dir/external/imgui/imgui_widgets.cpp.o: /home/ale/Programming/renderer/external/imgui/imgui_widgets.cpp
+CMakeFiles/3d-test.dir/external/imgui/imgui_widgets.cpp.o: /home/ale/Programming/3d-test/external/imgui/imgui_widgets.cpp
 CMakeFiles/3d-test.dir/external/imgui/imgui_widgets.cpp.o: CMakeFiles/3d-test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ale/Programming/renderer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/3d-test.dir/external/imgui/imgui_widgets.cpp.o"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/3d-test.dir/external/imgui/imgui_widgets.cpp.o -MF CMakeFiles/3d-test.dir/external/imgui/imgui_widgets.cpp.o.d -o CMakeFiles/3d-test.dir/external/imgui/imgui_widgets.cpp.o -c /home/ale/Programming/renderer/external/imgui/imgui_widgets.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ale/Programming/3d-test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/3d-test.dir/external/imgui/imgui_widgets.cpp.o"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/3d-test.dir/external/imgui/imgui_widgets.cpp.o -MF CMakeFiles/3d-test.dir/external/imgui/imgui_widgets.cpp.o.d -o CMakeFiles/3d-test.dir/external/imgui/imgui_widgets.cpp.o -c /home/ale/Programming/3d-test/external/imgui/imgui_widgets.cpp
 
 CMakeFiles/3d-test.dir/external/imgui/imgui_widgets.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/3d-test.dir/external/imgui/imgui_widgets.cpp.i"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ale/Programming/renderer/external/imgui/imgui_widgets.cpp > CMakeFiles/3d-test.dir/external/imgui/imgui_widgets.cpp.i
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ale/Programming/3d-test/external/imgui/imgui_widgets.cpp > CMakeFiles/3d-test.dir/external/imgui/imgui_widgets.cpp.i
 
 CMakeFiles/3d-test.dir/external/imgui/imgui_widgets.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/3d-test.dir/external/imgui/imgui_widgets.cpp.s"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ale/Programming/renderer/external/imgui/imgui_widgets.cpp -o CMakeFiles/3d-test.dir/external/imgui/imgui_widgets.cpp.s
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ale/Programming/3d-test/external/imgui/imgui_widgets.cpp -o CMakeFiles/3d-test.dir/external/imgui/imgui_widgets.cpp.s
 
 CMakeFiles/3d-test.dir/external/imgui/backends/imgui_impl_glfw.cpp.o: CMakeFiles/3d-test.dir/flags.make
-CMakeFiles/3d-test.dir/external/imgui/backends/imgui_impl_glfw.cpp.o: /home/ale/Programming/renderer/external/imgui/backends/imgui_impl_glfw.cpp
+CMakeFiles/3d-test.dir/external/imgui/backends/imgui_impl_glfw.cpp.o: /home/ale/Programming/3d-test/external/imgui/backends/imgui_impl_glfw.cpp
 CMakeFiles/3d-test.dir/external/imgui/backends/imgui_impl_glfw.cpp.o: CMakeFiles/3d-test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ale/Programming/renderer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/3d-test.dir/external/imgui/backends/imgui_impl_glfw.cpp.o"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/3d-test.dir/external/imgui/backends/imgui_impl_glfw.cpp.o -MF CMakeFiles/3d-test.dir/external/imgui/backends/imgui_impl_glfw.cpp.o.d -o CMakeFiles/3d-test.dir/external/imgui/backends/imgui_impl_glfw.cpp.o -c /home/ale/Programming/renderer/external/imgui/backends/imgui_impl_glfw.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ale/Programming/3d-test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/3d-test.dir/external/imgui/backends/imgui_impl_glfw.cpp.o"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/3d-test.dir/external/imgui/backends/imgui_impl_glfw.cpp.o -MF CMakeFiles/3d-test.dir/external/imgui/backends/imgui_impl_glfw.cpp.o.d -o CMakeFiles/3d-test.dir/external/imgui/backends/imgui_impl_glfw.cpp.o -c /home/ale/Programming/3d-test/external/imgui/backends/imgui_impl_glfw.cpp
 
 CMakeFiles/3d-test.dir/external/imgui/backends/imgui_impl_glfw.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/3d-test.dir/external/imgui/backends/imgui_impl_glfw.cpp.i"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ale/Programming/renderer/external/imgui/backends/imgui_impl_glfw.cpp > CMakeFiles/3d-test.dir/external/imgui/backends/imgui_impl_glfw.cpp.i
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ale/Programming/3d-test/external/imgui/backends/imgui_impl_glfw.cpp > CMakeFiles/3d-test.dir/external/imgui/backends/imgui_impl_glfw.cpp.i
 
 CMakeFiles/3d-test.dir/external/imgui/backends/imgui_impl_glfw.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/3d-test.dir/external/imgui/backends/imgui_impl_glfw.cpp.s"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ale/Programming/renderer/external/imgui/backends/imgui_impl_glfw.cpp -o CMakeFiles/3d-test.dir/external/imgui/backends/imgui_impl_glfw.cpp.s
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ale/Programming/3d-test/external/imgui/backends/imgui_impl_glfw.cpp -o CMakeFiles/3d-test.dir/external/imgui/backends/imgui_impl_glfw.cpp.s
 
 CMakeFiles/3d-test.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o: CMakeFiles/3d-test.dir/flags.make
-CMakeFiles/3d-test.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o: /home/ale/Programming/renderer/external/imgui/backends/imgui_impl_opengl3.cpp
+CMakeFiles/3d-test.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o: /home/ale/Programming/3d-test/external/imgui/backends/imgui_impl_opengl3.cpp
 CMakeFiles/3d-test.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o: CMakeFiles/3d-test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ale/Programming/renderer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/3d-test.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/3d-test.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o -MF CMakeFiles/3d-test.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o.d -o CMakeFiles/3d-test.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o -c /home/ale/Programming/renderer/external/imgui/backends/imgui_impl_opengl3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ale/Programming/3d-test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/3d-test.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/3d-test.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o -MF CMakeFiles/3d-test.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o.d -o CMakeFiles/3d-test.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o -c /home/ale/Programming/3d-test/external/imgui/backends/imgui_impl_opengl3.cpp
 
 CMakeFiles/3d-test.dir/external/imgui/backends/imgui_impl_opengl3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/3d-test.dir/external/imgui/backends/imgui_impl_opengl3.cpp.i"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ale/Programming/renderer/external/imgui/backends/imgui_impl_opengl3.cpp > CMakeFiles/3d-test.dir/external/imgui/backends/imgui_impl_opengl3.cpp.i
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ale/Programming/3d-test/external/imgui/backends/imgui_impl_opengl3.cpp > CMakeFiles/3d-test.dir/external/imgui/backends/imgui_impl_opengl3.cpp.i
 
 CMakeFiles/3d-test.dir/external/imgui/backends/imgui_impl_opengl3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/3d-test.dir/external/imgui/backends/imgui_impl_opengl3.cpp.s"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ale/Programming/renderer/external/imgui/backends/imgui_impl_opengl3.cpp -o CMakeFiles/3d-test.dir/external/imgui/backends/imgui_impl_opengl3.cpp.s
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ale/Programming/3d-test/external/imgui/backends/imgui_impl_opengl3.cpp -o CMakeFiles/3d-test.dir/external/imgui/backends/imgui_impl_opengl3.cpp.s
 
 # Object files for target 3d-test
 3d__test_OBJECTS = \
@@ -292,7 +292,7 @@ CMakeFiles/3d-test.dir/external/imgui/backends/imgui_impl_opengl3.cpp.s: cmake_f
 3d-test: /usr/lib/libGLX.so
 3d-test: /usr/lib/libOpenGL.so
 3d-test: CMakeFiles/3d-test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ale/Programming/renderer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable 3d-test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ale/Programming/3d-test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable 3d-test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/3d-test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -304,6 +304,6 @@ CMakeFiles/3d-test.dir/clean:
 .PHONY : CMakeFiles/3d-test.dir/clean
 
 CMakeFiles/3d-test.dir/depend:
-	cd /home/ale/Programming/renderer/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ale/Programming/renderer /home/ale/Programming/renderer /home/ale/Programming/renderer/build /home/ale/Programming/renderer/build /home/ale/Programming/renderer/build/CMakeFiles/3d-test.dir/DependInfo.cmake "--color=$(COLOR)" 3d-test
+	cd /home/ale/Programming/3d-test/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ale/Programming/3d-test /home/ale/Programming/3d-test /home/ale/Programming/3d-test/build /home/ale/Programming/3d-test/build /home/ale/Programming/3d-test/build/CMakeFiles/3d-test.dir/DependInfo.cmake "--color=$(COLOR)" 3d-test
 .PHONY : CMakeFiles/3d-test.dir/depend
 

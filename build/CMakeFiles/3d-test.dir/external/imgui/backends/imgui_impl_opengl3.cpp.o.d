@@ -1,8 +1,8 @@
 CMakeFiles/3d-test.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o: \
- /home/ale/Programming/renderer/external/imgui/backends/imgui_impl_opengl3.cpp \
+ /home/ale/Programming/3d-test/external/imgui/backends/imgui_impl_opengl3.cpp \
  /usr/include/stdc-predef.h \
- /home/ale/Programming/renderer/external/imgui/imgui.h \
- /home/ale/Programming/renderer/external/imgui/imconfig.h \
+ /home/ale/Programming/3d-test/external/imgui/imgui.h \
+ /home/ale/Programming/3d-test/external/imgui/imconfig.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/float.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdarg.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stddef.h \
@@ -13,7 +13,7 @@ CMakeFiles/3d-test.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o: \
  /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
  /usr/include/bits/types/locale_t.h /usr/include/bits/types/__locale_t.h \
  /usr/include/strings.h /usr/include/assert.h \
- /home/ale/Programming/renderer/external/imgui/backends/imgui_impl_opengl3.h \
+ /home/ale/Programming/3d-test/external/imgui/backends/imgui_impl_opengl3.h \
  /usr/include/stdio.h /usr/include/bits/types.h \
  /usr/include/bits/typesizes.h /usr/include/bits/time64.h \
  /usr/include/bits/types/__fpos_t.h /usr/include/bits/types/__mbstate_t.h \
@@ -26,7 +26,7 @@ CMakeFiles/3d-test.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o: \
  /usr/include/stdint.h /usr/include/bits/wchar.h \
  /usr/include/bits/stdint-intn.h /usr/include/bits/stdint-uintn.h \
  /usr/include/bits/stdint-least.h \
- /home/ale/Programming/renderer/external/imgui/backends/imgui_impl_opengl3_loader.h \
+ /home/ale/Programming/3d-test/external/imgui/backends/imgui_impl_opengl3_loader.h \
  /usr/include/c++/16/stdlib.h /usr/include/c++/16/cstdlib \
  /usr/include/c++/16/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/16/x86_64-pc-linux-gnu/bits/os_defines.h \
